@@ -25,6 +25,14 @@
         "light"
       ],
       "port": 8501
+    },
+    {
+      "name": "ecran",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "projet/app_dash/ecran.py"
+      ],
+      "port": 8052
     }
   ]
 }

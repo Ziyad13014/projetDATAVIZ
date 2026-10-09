@@ -1,0 +1,105 @@
+/* Rapport façon Power BI : bandeau, navigation par étapes, une page = un écran. */
+:root {
+  --fond: #f3f3f0; --carte: #fff; --encre: #0b0b0b; --encre2: #52514e; --muet: #898781; --trait: #e1e0d9;
+  --marine: #0d366b; --bleu: #2a78d6; --bon: #0a7a0a; --mauvais: #c23030; --moyen: #9a6700;
+}
+html, body { height: 100%; margin: 0; background: var(--fond); }
+body { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: var(--encre); }
+
+.ecran { height: 100vh; display: flex; flex-direction: column; box-sizing: border-box; }
+
+/* Bandeau titre + fil rouge */
+.bandeau-titre { background: var(--marine); color: #fff; padding: 10px 20px; display: flex; align-items: center; gap: 24px; }
+.bandeau-titre h1 { font-size: 1.25rem; font-weight: 700; margin: 0; white-space: nowrap; }
+.bandeau-titre .question { font-size: .85rem; opacity: .85; line-height: 1.3; }
+
+/* Navigation par étapes (le fil conducteur) */
+.etapes { display: flex; gap: 0; padding: 0 20px; background: #fff; border-bottom: 1px solid var(--trait); }
+.etapes .btn-group { width: 100%; }
+.etapes label.etape { flex: 1; border: 0 !important; border-bottom: 3px solid transparent !important; border-radius: 0 !important;
+  background: none !important; color: var(--muet) !important; font-size: .9rem; font-weight: 600; padding: 10px 6px;
+  box-shadow: none !important; }
+.etapes label.etape:hover { color: var(--encre) !important; }
+.etapes label.etape.active { color: var(--marine) !important; border-bottom-color: var(--marine) !important; }
+
+.page { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 12px; padding: 12px 20px 14px; }
+
+/* Bloc « constat » : la réponse de l'étape */
+.constat { display: flex; align-items: center; gap: 14px; background: var(--carte); border-radius: 8px; padding: 10px 16px;
+  border-left: 5px solid var(--c, var(--marine)); box-shadow: 0 1px 2px rgba(0, 0, 0, .06); }
+.constat .badge-rep { font-weight: 800; font-size: .85rem; letter-spacing: .04em; color: #fff; background: var(--c, var(--marine));
+  border-radius: 4px; padding: 4px 10px; white-space: nowrap; }
+.constat .q { font-size: .78rem; color: var(--muet); text-transform: uppercase; letter-spacing: .05em; font-weight: 700; }
+.constat .r { font-size: 1rem; font-weight: 600; line-height: 1.3; }
+
+/* Cartes KPI */
+.kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.kpi { background: var(--carte); border-radius: 8px; padding: 10px 16px; box-shadow: 0 1px 2px rgba(0, 0, 0, .06); }
+.kpi .lib { font-size: .8rem; color: var(--encre2); }
+.kpi .val { font-size: 1.9rem; font-weight: 700; line-height: 1.15; }
+.kpi .unite { font-size: 1rem; font-weight: 600; color: var(--encre2); margin-left: 3px; }
+.kpi .delta { font-size: .8rem; font-weight: 600; }
+.kpi .delta.mauvais { color: var(--mauvais); } .kpi .delta.bon { color: var(--bon); } .kpi .delta.neutre { color: var(--encre2); }
+.kpi .ref { font-size: .74rem; color: var(--muet); }
+
+/* Visuels */
+.visuels { flex: 1; min-height: 0; display: grid; gap: 12px; grid-template-columns: repeat(3, 1fr); grid-auto-rows: 1fr; }
+.visuels.une-ligne { grid-template-rows: 1fr; }
+.visuels.deux-lignes { grid-template-rows: 1fr 1fr; }
+.visuel { background: var(--carte); border-radius: 8px; padding: 10px 14px 6px; display: flex; flex-direction: column;
+  min-height: 0; min-width: 0; box-shadow: 0 1px 2px rgba(0, 0, 0, .06); }
+.visuel.l2 { grid-column: span 2; } .visuel.h2 { grid-row: span 2; }
+.visuel .titre { font-size: .92rem; font-weight: 650; }
+.visuel .sous { font-size: .78rem; color: var(--encre2); line-height: 1.3; }
+.visuel .zone { flex: 1 1 0; min-height: 0; position: relative; margin-top: 4px; }
+.visuel .zone .graph { position: absolute; inset: 0; }
+.visuel .ctrl { font-size: .78rem; margin-top: 2px; }
+.visuel .ctrl .form-check { margin-bottom: 0; }
+
+/* Encadrés texte */
+.encadre { font-size: .88rem; line-height: 1.45; color: var(--encre2); }
+.encadre .gros { font-size: 2.2rem; font-weight: 800; color: var(--mauvais); line-height: 1; }
+.encadre b { color: var(--encre); }
+
+/* Page verdict */
+.verdict { background: var(--marine); color: #fff; border-radius: 8px; padding: 16px 22px; }
+.verdict .q { font-size: .8rem; opacity: .75; text-transform: uppercase; letter-spacing: .05em; font-weight: 700; }
+.verdict .r { font-size: 1.35rem; font-weight: 700; line-height: 1.3; margin-top: 4px; }
+.scores { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.score { background: var(--carte); border-radius: 8px; padding: 12px 16px; border-top: 5px solid var(--c); box-shadow: 0 1px 2px rgba(0, 0, 0, .06); }
+.score .etiq { font-size: .78rem; color: var(--muet); font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
+.score .rep { font-size: 1.15rem; font-weight: 800; color: var(--c); }
+.score .chiffre { font-size: .86rem; color: var(--encre2); line-height: 1.35; margin-top: 4px; }
+.bas { flex: 1; min-height: 0; display: grid; grid-template-columns: 1fr 2fr; gap: 12px; }
+.recos { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; }
+.reco { font-size: .84rem; line-height: 1.35; color: var(--encre2); padding-left: 10px; border-left: 3px solid var(--bleu); }
+.reco b { color: var(--encre); display: block; }
+.demain .grand { font-size: 1.6rem; font-weight: 800; color: var(--mauvais); }
+.sources { font-size: .7rem; color: var(--muet); }
+
+.maplibregl-ctrl-attrib { font-size: 9px !important; line-height: 1.2 !important; padding: 0 4px !important; }
+
+/* Écrans moins hauts : on resserre */
+@media (max-height: 820px) {
+  .bandeau-titre { padding: 6px 16px; } .bandeau-titre h1 { font-size: 1.1rem; } .bandeau-titre .question { font-size: .78rem; }
+  .etapes label.etape { padding: 6px; font-size: .84rem; }
+  .page { gap: 8px; padding: 8px 16px 10px; }
+  .constat { padding: 6px 12px; } .constat .r { font-size: .9rem; }
+  .kpis, .visuels, .scores { gap: 8px; }
+  .kpi { padding: 6px 12px; } .kpi .val { font-size: 1.45rem; } .kpi .lib, .kpi .delta { font-size: .74rem; } .kpi .ref { font-size: .68rem; }
+  .visuel { padding: 6px 10px 4px; } .visuel .titre { font-size: .84rem; } .visuel .sous { font-size: .72rem; }
+  .encadre { font-size: .8rem; } .verdict .r { font-size: 1.1rem; } .reco { font-size: .76rem; }
+}
+/* Écrans peu hauts (< 700 px, ex. portable sans plein écran) : la lisibilité prime, la page défile un peu. */
+@media (max-height: 700px) {
+  .ecran { height: auto; min-height: 100vh; }
+  .page { flex: none; }
+  .visuels { flex: none; grid-auto-rows: 250px; grid-template-rows: none !important; }
+  .bas { flex: none; }
+}
+/* Écrans étroits : une colonne */
+@media (max-width: 1000px) {
+  .ecran { height: auto; } .kpis, .scores { grid-template-columns: repeat(2, 1fr); }
+  .visuels, .bas { grid-template-columns: 1fr; grid-auto-rows: 320px; grid-template-rows: none !important; flex: none; }
+  .visuel.l2 { grid-column: auto; } .visuel.h2 { grid-row: auto; }
+}

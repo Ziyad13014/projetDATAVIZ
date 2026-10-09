@@ -9,6 +9,9 @@ Deux versions du même tableau de bord, construites sur les mêmes données pré
 |---|---|---|---|
 | Dash + Plotly | `app_dash/` | `python app_dash/app.py` | http://127.0.0.1:8050 |
 | Streamlit + Altair | `app_altair/` | `streamlit run app_altair/app.py` | http://localhost:8501 |
+| **Rapport façon Power BI** (Dash, 5 pages d'un écran : climat → incendies → prévention → moyens → verdict) | `app_dash/ecran.py` | `python app_dash/ecran.py` | http://127.0.0.1:8052 |
+
+Les deux versions Dash partagent les mêmes graphiques (`app_dash/figures.py`). Le rapport tient sur un écran dès 700 px de haut (plein écran F11 conseillé sur un portable) ; on peut ouvrir directement une étape avec `?page=climat`, `incendies`, `prevention`, `moyens` ou `verdict`.
 
 ## 1. Cadrage
 
