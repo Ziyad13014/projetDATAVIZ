@@ -1,45 +1,23 @@
-# Dataviz
-Cours Dataviz pour M2 IEA - Ynov campus Aix
+# Projet Dataviz : le massif landais devient-il méditerranéen ?
 
-## Concevoir une dataviz 
+Module **Concevoir une dataviz**, M2 IA/Data, Ynov Campus Aix (octobre 2026).
 
-1. Séance 1 / jour 1
-   
-  a. [Rappels et généralités](https://github.com/Jehadel/Dataviz/blob/main/Concevoir%20une%20data%20viz%201%20_%20rappels%20-%20g%C3%A9n%C3%A9ralit%C3%A9s.pdf)
-    
-   - historique    
-   - format de données / types de graphes
-   - data storytelling
-   - bases cognitives et ergonomiques
-   - théorie de la perception et de l’encodage
-   - Gestalt (loi)
-   - Grammaires de visualisation, ggplot2/Plotnine, Vega-lite/Altair
-   - [Outils en dataviz](https://github.com/Jehadel/Dataviz/blob/main/Outils-Dataviz.md) : Metabase/Superset, PowerBI/Tableau, Altair/Plotnine, Dash/Plotly, stack geospatiale, etc.
-  
-  b. [Notebook de démonstration : Altair vs Plotnine](https://github.com/Jehadel/Dataviz/blob/main/altair_vs_plotnine_demo.ipynb)
-  
-  c. [Projets](https://github.com/Jehadel/Dataviz/blob/main/Projets.pdf)
-  
-  d. [Cadrage des projets](https://github.com/Jehadel/Dataviz/blob/main/Cadrage%20des%20projets.pdf)
+Tableau de bord interactif comparant le risque d'incendie de forêt du massif des Landes de Gascogne
+(Gironde + Landes) à celui des Alpes-Maritimes : climat, incendies 2006-2025, prévention et moyens de lutte.
 
-  e. Ressources issues d’autres cours
+| Dossier | Contenu |
+|---|---|
+| [`projet/`](projet/) | Le projet : données, préparation, dashboard Dash + Plotly et dashboard Streamlit + Altair. Voir son [README](projet/README.md). |
+| [`cours/`](cours/) | Supports du cours (diapositives, notebooks, TP), sans lien direct avec le code du projet. |
 
-   - [Données géospatiales](https://github.com/Jehadel/Dataviz/blob/main/Geospatial-dataviz-maps.ipynb)
-   - [Introduction à Dash](https://github.com/Jehadel/Dataviz/blob/main/Introduction-to-dash.ipynb)
-   - Guides pour installer des images Superset et Metabase et les prendre en main : [1](https://github.com/Jehadel/Dataviz/blob/main/TP_0_installation_prerequis-FINAL.md) [2](https://github.com/Jehadel/Dataviz/blob/main/TP_2_metabase-instacart.md) [3](https://github.com/Jehadel/Dataviz/blob/main/TP_3_superset-instacart.md) [4](https://github.com/Jehadel/Dataviz/blob/main/TP_3_superset-instacart.md)
+## Lancer un dashboard
 
-2. Séance 2 / jour 2
+Sous Windows : double-clic sur `lancer_dash.bat` (http://127.0.0.1:8050) ou `lancer_altair.bat` (http://localhost:8501).
 
-  a. Accessibilité, interactivité, éthique
+Sinon, depuis le dossier `projet/` :
 
-  b. Notebook de démonstration : interactivité avec Altair, accessibilité
-
-3. Séance 3 / jour 3
-
-  a. Dashboarding
-
-  b. Communication / Data Storytelling
-
-4. Évaluations / projets
-
-  a. Grille de co-évaluation
+```bash
+pip install -r requirements.txt
+python app_dash/app.py
+streamlit run app_altair/app.py
+```
