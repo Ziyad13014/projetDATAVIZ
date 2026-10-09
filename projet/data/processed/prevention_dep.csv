@@ -1,0 +1,4 @@
+dep,communes,a_risque,plan_approuve,plan_prescrit,derniere_approbation,departement,part_risque_couverte
+06,163,163,46,9,2023.0,Alpes-Maritimes,0.282
+33,534,159,13,12,2010.0,Gironde,0.082
+40,327,182,0,0,,Landes,0.0

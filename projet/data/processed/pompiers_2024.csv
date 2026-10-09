@@ -1,0 +1,4 @@
+dep,annee,interventions,spp_spm,spv_spr,pats,depenses_fonct_meur,depenses_invest_meur,depenses_totales_meur,source,population,surface_km2,pompiers,pompiers_100k_hab,pompiers_1000km2,part_volontaires,departement,territoire
+06,2024,106212,1239,3295,346,151,18,169,"DGSCGC, Les statistiques des services d'incendie et de secours, édition 2025 (données 2024), annexes p.68-70",1128418,4295.147,4534,401.801,1055.61,0.727,Alpes-Maritimes,Alpes-Maritimes
+33,2024,134117,1876,3423,435,184,39,223,"DGSCGC, Les statistiques des services d'incendie et de secours, édition 2025 (données 2024), annexes p.68-70",1690493,10381.378,5299,313.459,510.433,0.646,Gironde,Landes de Gascogne
+40,2024,39383,314,1762,74,34,9,43,"DGSCGC, Les statistiques des services d'incendie et de secours, édition 2025 (données 2024), annexes p.68-70",433570,9357.039,2076,478.815,221.865,0.849,Landes,Landes de Gascogne

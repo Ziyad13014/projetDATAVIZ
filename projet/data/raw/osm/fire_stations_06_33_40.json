@@ -1,0 +1,4532 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-08T09:25:39Z",
+    "timestamp_areas_base": "2026-10-07T10:19:21Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 276815661,
+  "lat": 43.6924052,
+  "lon": 7.2448764,
+  "tags": {
+    "addr:street": "Boulevard de la Madeleine",
+    "amenity": "fire_station",
+    "check_date": "2026-07-13",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre de secours principal Nice-Magnan",
+    "official_name": "NICE-MAGNAN",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "388",
+    "ref:FR:SDIS:CIE": "Nice",
+    "ref:FR:SDIS:PC_CIE": "Nice",
+    "short_name": "CSP Nice-Magnan"
+  }
+},
+{
+  "type": "node",
+  "id": 465275737,
+  "lat": 43.7046156,
+  "lon": 7.2683204,
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours Nice-Hansy",
+    "official_name": "Nice Hansy",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "390",
+    "ref:FR:SDIS:CIE": "Nice",
+    "ref:FR:SIRET": "53082470500012",
+    "short_name": "CS Nice-Hansy"
+  }
+},
+{
+  "type": "node",
+  "id": 2440865020,
+  "lat": 43.5532471,
+  "lon": 7.0102008,
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre de secours principal Cannes-Pastour",
+    "official_name": "CANNES PASTOUR",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "330",
+    "ref:FR:SDIS:CIE": "Cannes",
+    "short_name": "CSP Cannes-Pastour"
+  }
+},
+{
+  "type": "node",
+  "id": 5056993294,
+  "lat": 44.0130348,
+  "lon": 7.3067960,
+  "tags": {
+    "addr:street": "Rue du Plateau Carlon",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Roquebillière",
+    "official_name": "ROQUEBILLIERE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:OpenDFCI": "1673",
+    "ref:FR:SDIS": "103",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Roquebillière"
+  }
+},
+{
+  "type": "node",
+  "id": 7995141053,
+  "lat": 44.1389116,
+  "lon": 7.5702265,
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "PA",
+    "name": "Centre d'incendie et de secours du Tunnel de Tende",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:OpenDFCI": "1625",
+    "ref:FR:SDIS": "463",
+    "ref:FR:SDIS:CIE": "Pays mentonnais",
+    "short_name": "APS Tunnel de Tende"
+  }
+},
+{
+  "type": "node",
+  "id": 7995834116,
+  "lat": 43.8800709,
+  "lon": 7.4445288,
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "BF",
+    "name": "Force 06 - Base de Sospel",
+    "operator:wikidata": "Q23782139",
+    "ref:FR:OpenDFCI": "1657"
+  }
+},
+{
+  "type": "node",
+  "id": 7995957562,
+  "lat": 43.9728605,
+  "lon": 7.3074786,
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "BF",
+    "name": "Force 06 - Base de Lantosque",
+    "operator:wikidata": "Q23782139",
+    "ref:FR:OpenDFCI": "1663"
+  }
+},
+{
+  "type": "node",
+  "id": 7995957563,
+  "lat": 43.7920352,
+  "lon": 7.3766756,
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "BF",
+    "name": "Force 06 - Base de Peille",
+    "operator:wikidata": "Q23782139",
+    "ref:FR:OpenDFCI": "1613"
+  }
+},
+{
+  "type": "node",
+  "id": 9383532858,
+  "lat": 44.0705305,
+  "lon": 7.2540088,
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "fixme": "Locaux situés sur la place sans précision https://www.sdis06.fr/jcms/psdis_20230/21-b2-mad-locaux-de-st-martin-vesubie-au-sdis-06",
+    "name": "Centre d'incendie et de secours de Saint-Martin-Vésubie",
+    "note": "CIS provisoire depuis la tempête Alex",
+    "official_name": "ST MARTIN VÉSUBIE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "127",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Saint-Martin-Vésubie"
+  }
+},
+{
+  "type": "node",
+  "id": 9383532859,
+  "lat": 43.7761802,
+  "lon": 7.5057120,
+  "tags": {
+    "addr:street": "Rue du Général Gallieni",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "PA",
+    "name": "Antenne de Premiers secours Forty",
+    "official_name": "Menton Forty",
+    "opening_hours": "Jul-Aug 08:00-18:00",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "383",
+    "ref:FR:SDIS:CIE": "Pays mentonnais",
+    "short_name": "APS Menton Forty"
+  }
+},
+{
+  "type": "node",
+  "id": 9484261237,
+  "lat": 43.8112674,
+  "lon": 7.2952473,
+  "tags": {
+    "addr:street": "Avenue de la Tour",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Châteauneuf-Villevieille",
+    "official_name": "CHATEAUNEUF-VILLEVIELLE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "39",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Châteauneuf-Villevieille",
+    "source": "IGN - 2021-12"
+  }
+},
+{
+  "type": "node",
+  "id": 9484261238,
+  "lat": 43.8349267,
+  "lon": 7.2939956,
+  "tags": {
+    "addr:street": "Avenue Comte Xavier de Sessi",
+    "amenity": "fire_station",
+    "check_date": "2026-05-19",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Bendejun",
+    "official_name": "BENDEJUN",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "14",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Bendejun",
+    "source": "IGN - 2021-12"
+  }
+},
+{
+  "type": "node",
+  "id": 9484363963,
+  "lat": 44.0970687,
+  "lon": 6.9866346,
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Beuil",
+    "official_name": "BEUIL",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "16",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Beuil",
+    "source": "IGN - 2021-12"
+  }
+},
+{
+  "type": "node",
+  "id": 9484363964,
+  "lat": 44.0957647,
+  "lon": 6.9360896,
+  "tags": {
+    "addr:street": "Route de Rouva",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Péone-Valberg",
+    "official_name": "PEONE VALBERG",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "94",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Péone-Valberg",
+    "source": "IGN - 2021-12"
+  }
+},
+{
+  "type": "node",
+  "id": 9484363965,
+  "lat": 44.0886419,
+  "lon": 6.8535339,
+  "tags": {
+    "addr:city": "Guillaumes",
+    "addr:postcode": "06470",
+    "addr:street": "Avenue Lieutenant Colonelli",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Guillaumes",
+    "official_name": "GUILLAUMES",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "71",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Guillaumes",
+    "source": "IGN - 2021-12"
+  }
+},
+{
+  "type": "node",
+  "id": 9484524326,
+  "lat": 43.7735504,
+  "lon": 6.7867434,
+  "tags": {
+    "addr:street": "Allée Léon Funel",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours d'Andon",
+    "official_name": "ANDON",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "3",
+    "ref:FR:SDIS:CIE": "Grasse",
+    "short_name": "CPI Andon",
+    "source": "IGN - 2021-12"
+  }
+},
+{
+  "type": "node",
+  "id": 9484597327,
+  "lat": 43.6440309,
+  "lon": 6.8790276,
+  "tags": {
+    "addr:street": "Boulevard Jean Giraud",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Peymeinade",
+    "official_name": "PEYMEINADE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "95",
+    "ref:FR:SDIS:CIE": "Grasse",
+    "short_name": "CPI Peymeinade",
+    "source": "IGN - 2021-12"
+  }
+},
+{
+  "type": "node",
+  "id": 9484633757,
+  "lat": 43.8537357,
+  "lon": 7.1641357,
+  "tags": {
+    "addr:street": "Route de Revest",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Gilette",
+    "official_name": "GILETTE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "66",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "ref:FR:SDIS:PC_CIE": "Pays niçois",
+    "short_name": "CPI Gilette",
+    "source": "IGN - 2021-12"
+  }
+},
+{
+  "type": "node",
+  "id": 9502847890,
+  "lat": 44.0822092,
+  "lon": 7.1067793,
+  "tags": {
+    "addr:street": "Avenue des Blavets",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et et de secours de Saint-Sauveur-sur-Tinée",
+    "official_name": "ST-SAUVEUR-SUR-TINÉE",
+    "operator": "SDIS 06",
+    "ref:FR:SDIS": "129",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Saint-Sauveur-sur-Tinée"
+  }
+},
+{
+  "type": "node",
+  "id": 10245548783,
+  "lat": 44.0702318,
+  "lon": 7.1673077,
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Valdeblore",
+    "official_name": "VALDEBLORE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:OpenDFCI": "1644",
+    "ref:FR:SDIS": "153",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CS Valdeblore"
+  }
+},
+{
+  "type": "node",
+  "id": 11574859173,
+  "lat": 44.9074656,
+  "lon": -0.3928035,
+  "tags": {
+    "addr:full": "Rue de Villote 33450 Saint-Sulpice-et-Cameyrac",
+    "addr:street": "Rue de Villote",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Saint-Sulpice",
+    "official_name": "SAINT-SULPICE",
+    "operator": "SDIS 33",
+    "ref:FR:SDIS:GRPT": "Centre-Est",
+    "source": "IGN - 2023-09-15"
+  }
+},
+{
+  "type": "node",
+  "id": 11761436952,
+  "lat": 43.6636831,
+  "lon": -0.6014594,
+  "tags": {
+    "addr:street": "Rue de l'Atlantique",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre de secours et d'incendie de Hagetmau",
+    "official_name": "HAGETMAU",
+    "operator": "SDIS40",
+    "phone": "+33 5 58 79 53 33",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CS Hagetmau"
+  }
+},
+{
+  "type": "node",
+  "id": 12073857673,
+  "lat": 43.5460020,
+  "lon": -1.4934929,
+  "tags": {
+    "amenity": "fire_station"
+  }
+},
+{
+  "type": "node",
+  "id": 13740941710,
+  "lat": 44.6065328,
+  "lon": -0.5526947,
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Caserne des pompiers de Cabanac et Villagrains"
+  }
+},
+{
+  "type": "way",
+  "id": 62105397,
+  "center": {
+    "lat": 44.8951184,
+    "lon": -0.7215706
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Saint-Médard-en-Jalles",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "STME",
+    "ref:FR:SDIS:GRPT": "Centre-Ouest",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "survey:date": "2020-03-13"
+  }
+},
+{
+  "type": "way",
+  "id": 63028393,
+  "center": {
+    "lat": 43.7011245,
+    "lon": 7.3269764
+  },
+  "tags": {
+    "addr:city": "Saint-Jean-Cap-Ferrat",
+    "addr:housenumber": "55",
+    "addr:postcode": "06230",
+    "addr:street": "Boulevard Dominique Durandy",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Saint-Jean-Cap-Ferrat",
+    "official_name": "ST JEAN CAP FERRAT",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "121",
+    "ref:FR:SDIS:CIE": "Nice",
+    "short_name": "CPI Saint-Jean-Cap-Ferrat",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 64971363,
+  "center": {
+    "lat": 43.5212863,
+    "lon": 7.0371628
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "US",
+    "name": "Centre d'incendie et de secours de l'Île Sainte-Marguerite",
+    "official_name": "ILE STE MARGUERITE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:RNB": "8VWSQJ74P2WK",
+    "ref:FR:SDIS": "332",
+    "ref:FR:SDIS:CIE": "Cannes",
+    "short_name": "APS Île Sainte-Marguerite",
+    "source": "IGN - 2021-09"
+  }
+},
+{
+  "type": "way",
+  "id": 65137253,
+  "center": {
+    "lat": 43.7291395,
+    "lon": -1.0536065
+  },
+  "tags": {
+    "addr:full": "11 rue Pasteur 40990 Saint-Paul-lès-Dax",
+    "addr:housenumber": "11",
+    "addr:street": "Rue Pasteur",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Saint-Paul-lès-Dax",
+    "official_name": "Saint-Paul-lès-Dax",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 56 37 57",
+    "ref:FR:SDIS:CIE": "Dax",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CS Saint-Paul-lès-Dax"
+  }
+},
+{
+  "type": "way",
+  "id": 67271222,
+  "center": {
+    "lat": 44.9154460,
+    "lon": -0.4267891
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours de Saint-Loubès/Saint-Sulpice",
+    "operator": "SDIS 33",
+    "ref": "STLO",
+    "ref:FR:SDIS:GRPT": "Centre-Est",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 69092448,
+  "center": {
+    "lat": 44.8402718,
+    "lon": 0.2138586
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours de Sainte-Foy-la-Grande",
+    "operator": "SDIS 33",
+    "ref": "STEF",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+  }
+},
+{
+  "type": "way",
+  "id": 70634893,
+  "center": {
+    "lat": 44.7405433,
+    "lon": -1.0905577
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours d'Andernos/Lanton",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "ANDE",
+    "ref:FR:RNB": "1VECV9FPVGBA",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+  }
+},
+{
+  "type": "way",
+  "id": 83827586,
+  "center": {
+    "lat": 43.8564111,
+    "lon": 7.2245533
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Levens",
+    "official_name": "LEVENS",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "75",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Levens",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+  }
+},
+{
+  "type": "way",
+  "id": 86027794,
+  "center": {
+    "lat": 43.5932786,
+    "lon": 6.9266047
+  },
+  "tags": {
+    "addr:street": "Avenue Frédéric Mistral",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Pégomas",
+    "official_name": "PEGOMAS",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "90",
+    "ref:FR:SDIS:CIE": "Cannes",
+    "short_name": "CPI Pégomas",
+    "source": "IGN - 2021-09"
+  }
+},
+{
+  "type": "way",
+  "id": 102614762,
+  "center": {
+    "lat": 43.7107440,
+    "lon": -0.8390390
+  },
+  "tags": {
+    "addr:full": "23 place du Foirail 40380 Montfort-en-Chalosse",
+    "addr:housenumber": "23",
+    "addr:street": "Place du Foirail",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Montfort-en-Chalosse",
+    "official_name": "MONTFORT",
+    "operator": "SDIS 40",
+    "operator:wikidata": "Q88763799",
+    "phone": "+33 5 58 98 41 91",
+    "ref:FR:SDIS:CIE": "Dax",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Montfort",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 106330729,
+  "center": {
+    "lat": 44.9787408,
+    "lon": -1.0828775
+  },
+  "tags": {
+    "addr:street": "Avenue du Lac",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours de Lacanau",
+    "operator": "SDIS 33",
+    "ref": "LACA",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2019"
+  }
+},
+{
+  "type": "way",
+  "id": 113332540,
+  "center": {
+    "lat": 44.6590165,
+    "lon": -1.1608410
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "check_date": "2024-08-18",
+    "name": "Centre d'incendie et de secours d'Arcachon",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "ARCA",
+    "ref:FR:SDIS:EM_GRPT": "Sud-Ouest",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 115529856,
+  "center": {
+    "lat": 43.8736930,
+    "lon": -1.0723102
+  },
+  "tags": {
+    "addr:full": "Au Bourg 40260 Taller",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Taller",
+    "official_name": "TALLER",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 55 01 84",
+    "ref:FR:SDIS:CIE": "Dax",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Taller",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 115546731,
+  "center": {
+    "lat": 43.8523618,
+    "lon": -0.9945678
+  },
+  "tags": {
+    "addr:full": "206 impasse de la Poste 40465 Laluque",
+    "addr:street": "Impasse de la Poste",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Laluque",
+    "official_name": "LALUQUE",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 57 99 36",
+    "ref:FR:SDIS:CIE": "Dax",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Laluque",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "wall": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 115748846,
+  "center": {
+    "lat": 43.6100290,
+    "lon": 6.9163295
+  },
+  "tags": {
+    "addr:street": "Route de Grasse",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours d'Auribeau-sur-Siagne",
+    "official_name": "AURIBEAU-SUR-SIAGNE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "7",
+    "ref:FR:SDIS:CIE": "Cannes",
+    "short_name": "CPI Auribeau-sur-Siagne",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 116476193,
+  "center": {
+    "lat": 43.9747372,
+    "lon": 7.3115843
+  },
+  "tags": {
+    "alt_name": "Centre d'incendie et de secours Commandant Bruno Kohlhuber",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Lantosque",
+    "official_name": "LANTOSQUE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:OpenDFCI": "1669",
+    "ref:FR:SDIS": "74",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Lantosque",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 118234590,
+  "center": {
+    "lat": 43.6574388,
+    "lon": 6.8794342
+  },
+  "tags": {
+    "addr:street": "Chemin de Stramousse",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Cabris",
+    "official_name": "CABRIS",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "26",
+    "ref:FR:SDIS:CIE": "Grasse",
+    "short_name": "CPI Cabris",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;IGN - 2021-12"
+  }
+},
+{
+  "type": "way",
+  "id": 132045373,
+  "center": {
+    "lat": 43.6123481,
+    "lon": 6.9517469
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "barrier": "fence",
+    "fire_station:type:FR": "BF",
+    "name": "Force 06 - Base forestière de Mouans-Sartoux",
+    "operator:wikidata": "Q23782139",
+    "source": "IGN - 2021-09"
+  }
+},
+{
+  "type": "way",
+  "id": 137563956,
+  "center": {
+    "lat": 44.6074641,
+    "lon": -0.3172907
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours de Barsac",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "BARS",
+    "ref:FR:SDIS:GRPT": "Sud-Est",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 138302495,
+  "center": {
+    "lat": 43.6929909,
+    "lon": 7.2891786
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CN",
+    "height": "4",
+    "name": "Centre d'incendie et de secours de La Tour-Rouge",
+    "official_name": "TOUR ROUGE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "394",
+    "ref:FR:SDIS:CIE": "Nice",
+    "short_name": "APS Tour Rouge",
+    "source": "IGN - 2021-09",
+    "wall": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 138575772,
+  "center": {
+    "lat": 43.7332450,
+    "lon": 7.2496690
+  },
+  "tags": {
+    "addr:housenumber": "38",
+    "addr:street": "Boulevard Henri Sappia",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "US",
+    "height": "3",
+    "name": "Centre d'incendie et de secours Nice-Nord",
+    "official_name": "Nice Nord",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "392",
+    "ref:FR:SDIS:CIE": "Nice",
+    "short_name": "APS Nice-Nord",
+    "source": "IGN - 2021-06"
+  }
+},
+{
+  "type": "way",
+  "id": 138587538,
+  "center": {
+    "lat": 43.7620040,
+    "lon": 7.4802690
+  },
+  "tags": {
+    "addr:street": "Avenue François de Monléon",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "PA",
+    "name": "Centre d'incendie et de secours de Roquebrune-Cap-Martin",
+    "official_name": "ROQUEBRUNE CAP MARTIN",
+    "opening_hours": "07:00-19:00",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref": "RCM",
+    "ref:FR:OpenDFCI": "1643",
+    "ref:FR:SDIS": "104",
+    "ref:FR:SDIS:CIE": "Pays mentonnais",
+    "short_name": "APS Roquebrune-Cap-Martin",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 139064309,
+  "center": {
+    "lat": 43.5919703,
+    "lon": -0.7514873
+  },
+  "tags": {
+    "addr:full": "306 avenue de l’Océan 40330 Amou",
+    "amenity": "fire_station",
+    "building": "yes",
+    "check_date": "2026-04-28",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours d'Amou",
+    "official_name": "AMOU",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 89 26 55",
+    "ref:FR:SDIS:CIE": "Dax",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Amou",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 139663133,
+  "center": {
+    "lat": 43.6289273,
+    "lon": -0.8314391
+  },
+  "tags": {
+    "addr:full": "37 impasse de la Tour 40360 Pomarez",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Pomarez",
+    "official_name": "POMAREZ",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 89 89 18",
+    "ref:FR:SDIS:CIE": "Dax",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CS Pomarez",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 139675826,
+  "center": {
+    "lat": 44.7842217,
+    "lon": -0.5820007
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 141876191,
+  "center": {
+    "lat": 43.8442449,
+    "lon": 6.7299434
+  },
+  "tags": {
+    "addr:street": "Route de Brunet",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Saint-Auban",
+    "official_name": "SAINT-AUBAN",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "116",
+    "ref:FR:SDIS:CIE": "Grasse",
+    "short_name": "CPI Saint-Auban",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 141963297,
+  "center": {
+    "lat": 43.8761391,
+    "lon": 7.0062075
+  },
+  "tags": {
+    "addr:street": "Route de Cuébris",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Roquestéron",
+    "official_name": "ROSQUESTÉRON",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "106",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Roquestéron",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 142365789,
+  "center": {
+    "lat": 43.8309251,
+    "lon": 7.3275576
+  },
+  "tags": {
+    "addr:street": "Avenue Paul Granet",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Berre-les-Alpes",
+    "official_name": "BERRE LES ALPES",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Berre-les-Alpes",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2023"
+  }
+},
+{
+  "type": "way",
+  "id": 142374969,
+  "center": {
+    "lat": 44.1892175,
+    "lon": 7.1534810
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours d'Isola 2000",
+    "official_name": "ISOLA 2000",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "374",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CS Isola 2000",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;IGN - 2021-12"
+  }
+},
+{
+  "type": "way",
+  "id": 142376839,
+  "center": {
+    "lat": 44.1854678,
+    "lon": 7.0511904
+  },
+  "tags": {
+    "alt_name": "73",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours d'Isola",
+    "official_name": "ISOLA",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Isola",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 143230704,
+  "center": {
+    "lat": 43.7458530,
+    "lon": 7.4023810
+  },
+  "tags": {
+    "alt_name": "Centre Jean-Pierre Davenet",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de La Turbie",
+    "official_name": "LA TURBIE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:OpenDFCI": "1660",
+    "ref:FR:SDIS": "150",
+    "ref:FR:SDIS:CIE": "Nice",
+    "short_name": "CPI La Turbie"
+  }
+},
+{
+  "type": "way",
+  "id": 143430394,
+  "center": {
+    "lat": 43.8379190,
+    "lon": 7.3541495
+  },
+  "tags": {
+    "addr:street": "Place du Colonel Beltrame",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de L'Escarene",
+    "name:oc": "L'ESCAREA",
+    "official_name": "L'ESCARENE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:OpenDFCI": "1672",
+    "ref:FR:SDIS": "57",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI L'Escarene",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "source:name:oc": "ieo-bdtopoc"
+  }
+},
+{
+  "type": "way",
+  "id": 143452768,
+  "center": {
+    "lat": 43.7915485,
+    "lon": 7.3764336
+  },
+  "tags": {
+    "addr:street": "Route des Clues",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Peille",
+    "official_name": "PEILLE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:OpenDFCI": "1662",
+    "ref:FR:SDIS": "91",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Peille",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 143564404,
+  "center": {
+    "lat": 43.7893012,
+    "lon": 7.2339226
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Castagniers",
+    "official_name": "CASTAGNIERS",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "34",
+    "ref:FR:SDIS:CIE": "Nice",
+    "short_name": "CPI Castagniers",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;IGN - 2021-12"
+  }
+},
+{
+  "type": "way",
+  "id": 143635309,
+  "center": {
+    "lat": 43.8807392,
+    "lon": 7.3560350
+  },
+  "tags": {
+    "addr:street": "Route de Lucéram",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "check_date": "2025-05-23",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Lucéram",
+    "official_name": "LUCERAM",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:OpenDFCI": "1642",
+    "ref:FR:SDIS": "77",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Lucéram",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 143707334,
+  "center": {
+    "lat": 44.2276020,
+    "lon": 6.9281240
+  },
+  "tags": {
+    "addr:street": "Route de Nabinas",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours d'Auron",
+    "official_name": "AURON",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "421",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CS Auron",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 143708368,
+  "center": {
+    "lat": 44.2555801,
+    "lon": 6.9239889
+  },
+  "tags": {
+    "addr:street": "Boulevard d'Auron",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Saint-Étienne-de-Tinée",
+    "official_name": "ST ETIENNE-DE-TINEE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "120",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Saint-Étienne-de-Tinée",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 144691959,
+  "center": {
+    "lat": 43.7038942,
+    "lon": -1.0389111
+  },
+  "tags": {
+    "addr:full": "15 rue d’Aspremont 40100 Dax",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre de secours principal de Dax",
+    "official_name": "DAX",
+    "operator": "SDIS 40",
+    "operator:wikidata": "Q88763799",
+    "phone": "+33 5 58 56 37 57",
+    "ref:FR:SDIS:CIE": "Dax",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CSP Dax"
+  }
+},
+{
+  "type": "way",
+  "id": 148694537,
+  "center": {
+    "lat": 44.5489661,
+    "lon": -0.8799636
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Salles",
+    "operator": "SDIS 33",
+    "ref": "SALL",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 152081186,
+  "center": {
+    "lat": 43.6234290,
+    "lon": 7.0279920
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "BF",
+    "name": "Force 06 - Base forestière de La Roberte",
+    "operator:wikidata": "Q23782139",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 158761453,
+  "center": {
+    "lat": 44.0824755,
+    "lon": 6.8567770
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "BF",
+    "name": "Force 06 - Base de Guillaumes",
+    "operator:wikidata": "Q23782139",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012;IGN - 2021-12"
+  }
+},
+{
+  "type": "way",
+  "id": 163375681,
+  "center": {
+    "lat": 45.1386550,
+    "lon": -0.4393185
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours de Saint-Savin",
+    "operator": "SDIS 33",
+    "ref": "STSA",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "source": "Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 175553653,
+  "center": {
+    "lat": 44.2647451,
+    "lon": -0.5207818
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "yes",
+    "contact:full": "90 place du Foirail 40430 Luxey",
+    "contact:housenumber": "90",
+    "contact:street": "Place du Foirail",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Luxey",
+    "official_name": "LUXEY",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 08 02 21",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Luxey",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 175999479,
+  "center": {
+    "lat": 43.9356605,
+    "lon": 7.0957480
+  },
+  "tags": {
+    "addr:street": "Avenue Bischoffsheim",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Villars-sur-Var",
+    "official_name": "VILLARS-SUR-VAR",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "158",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Villars-sur-Var",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 178167392,
+  "center": {
+    "lat": 44.8350757,
+    "lon": -0.5849440
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre d'incendie et de secours d'Ornano",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "ORNA",
+    "ref:FR:SDIS:EM_GRPT": "Centre-Centre",
+    "ref:FR:SDIS:GRPT": "Centre-Centre",
+    "short_name": "CSP Ornano"
+  }
+},
+{
+  "type": "way",
+  "id": 178952955,
+  "center": {
+    "lat": 44.0025645,
+    "lon": 7.5557560
+  },
+  "tags": {
+    "addr:street": "Chemin de Pévé",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Fontan",
+    "official_name": "FONTAN",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:OpenDFCI": "1629",
+    "ref:FR:SDIS": "62",
+    "ref:FR:SDIS:CIE": "Pays mentonnais",
+    "short_name": "CPI Fontan",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 178986883,
+  "center": {
+    "lat": 44.0633042,
+    "lon": 7.6226256
+  },
+  "tags": {
+    "addr:street": "Chemin Saint-Jean",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de La Brigue",
+    "official_name": "LA BRIGUE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:OpenDFCI": "1645",
+    "ref:FR:SDIS": "162",
+    "ref:FR:SDIS:CIE": "Pays mentonnais",
+    "short_name": "CPI La Brigue",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 179274982,
+  "center": {
+    "lat": 44.7433742,
+    "lon": -0.6879741
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Cestas",
+    "operator": "SDIS 33",
+    "ref": "CEST",
+    "ref:FR:SDIS:GRPT": "Centre-Ouest"
+  }
+},
+{
+  "type": "way",
+  "id": 181359573,
+  "center": {
+    "lat": 43.9882386,
+    "lon": 0.0090285
+  },
+  "tags": {
+    "addr:full": "26 boulevard Lapègue 40310 Gabarret",
+    "addr:housenumber": "26",
+    "addr:street": "Boulevard Lapègue",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'Incendie et de Secours de Gabarret",
+    "official_name": "GABARRET",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 44 93 83",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Gabarret",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 192398521,
+  "center": {
+    "lat": 44.0552781,
+    "lon": 7.5799240
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Saint-Dalmas-de-Tende",
+    "official_name": "ST-DALMAS DE TENDE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:OpenDFCI": "1623",
+    "ref:FR:SDIS": "163",
+    "ref:FR:SDIS:CIE": "Pays mentonnais",
+    "short_name": "CS Saint-Dalmas-de-Tende",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 192406592,
+  "center": {
+    "lat": 45.5079870,
+    "lon": -1.1213375
+  },
+  "tags": {
+    "addr:street": "Rue Olivier Guinet",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours de Soulac/Le Verdon",
+    "operator": "SDIS 33",
+    "ref": "SOUL",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 192437688,
+  "center": {
+    "lat": 44.0742025,
+    "lon": 7.5977415
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "yes",
+    "end_date": "2020-10-02",
+    "fire_station:type:FR": "BF",
+    "name": "Force 06 - Base de Tende",
+    "operator:wikidata": "Q23782139",
+    "ref:FR:OpenDFCI": "1626",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 192517856,
+  "center": {
+    "lat": 45.0278055,
+    "lon": -0.7964590
+  },
+  "tags": {
+    "addr:street": "Rue de la Fontaine",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "check_date": "2025-08-29",
+    "name": "Centre d'incendie et de secours de Castelnau-de-Médoc",
+    "operator": "SDIS 33",
+    "ref": "CASM",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 192541191,
+  "center": {
+    "lat": 45.4274350,
+    "lon": -1.0346606
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours de Saint-Vivien-de-Médoc",
+    "operator": "SDIS 33",
+    "ref": "STVI",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 192648796,
+  "center": {
+    "lat": 44.9706775,
+    "lon": -0.8887480
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours de Saint-Hélène",
+    "operator": "SDIS 33",
+    "ref": "STEH",
+    "ref:FR:RNB": "2D8YGCD384PM",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 192708842,
+  "center": {
+    "lat": 45.0798940,
+    "lon": -1.0457720
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "check_date": "2025-03-12",
+    "name": "Centre d'incendie et de secours de Carcans",
+    "ref": "CARC",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 192793530,
+  "center": {
+    "lat": 44.5950420,
+    "lon": -0.7579550
+  },
+  "tags": {
+    "addr:street": "Chemin de la Scierie",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours du Barp",
+    "operator": "SDIS 33",
+    "ref": "BARP",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 204803930,
+  "center": {
+    "lat": 43.7807290,
+    "lon": -0.4341592
+  },
+  "tags": {
+    "addr:full": "63 chemin du Harguet 40270 Grenade-sur-l'Adour",
+    "amenity": "fire_station",
+    "check_date": "2025-03-02",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Grenade-sur-l'Adour",
+    "official_name": "GRENADE-SUR-ADOUR",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 45 11 35",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Grenade-sur-l'Adour"
+  }
+},
+{
+  "type": "way",
+  "id": 208710318,
+  "center": {
+    "lat": 44.6010273,
+    "lon": -0.9322063
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours de Mios",
+    "operator": "SDIS 33",
+    "ref": "MIOS",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 209277086,
+  "center": {
+    "lat": 44.0444962,
+    "lon": -0.5329117
+  },
+  "tags": {
+    "addr:city": "Brocas",
+    "addr:full": "191 rue du Docteur Camille Lugardon 40420 Brocas",
+    "addr:housenumber": "191",
+    "addr:postcode": "40420",
+    "addr:street": "Rue du Docteur Camille Lugardon",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Brocas",
+    "official_name": "BROCAS",
+    "operator": "SDIS 40",
+    "operator:wikidata": "Q88763799",
+    "phone": "+33 5 58 51 61 95",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Brocas",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+    "start_date": "2005-12-02"
+  }
+},
+{
+  "type": "way",
+  "id": 228204001,
+  "center": {
+    "lat": 43.6996504,
+    "lon": 6.9889304
+  },
+  "tags": {
+    "addr:street": "Avenue des Écoles",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Bar-sur-Loup",
+    "official_name": "LE BAR SUR LOUP",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref": "BSL",
+    "ref:FR:SDIS": "10",
+    "ref:FR:SDIS:CIE": "Grasse",
+    "short_name": "CPI Bar-sur-Loup"
+  }
+},
+{
+  "type": "way",
+  "id": 231810292,
+  "center": {
+    "lat": 43.6606047,
+    "lon": 7.2092524
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "SSLIA",
+    "height": "9",
+    "name": "SSLIA",
+    "name:en": "RFFS",
+    "operator": "DGAC",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 258524163,
+  "center": {
+    "lat": 45.3545970,
+    "lon": -1.0593775
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours de Vendays-Montalivet",
+    "operator": "SDIS 33",
+    "ref": "VEND",
+    "ref:FR:RNB": "AEPD5X68HNVG",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014"
+  }
+},
+{
+  "type": "way",
+  "id": 265026506,
+  "center": {
+    "lat": 44.2950155,
+    "lon": -0.2609650
+  },
+  "tags": {
+    "addr:full": "65 route de Bazas 33840 Captieux",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours de Captieux",
+    "official_name": "CAPTIEUX",
+    "operator": "SDIS 33",
+    "ref": "CAPT",
+    "ref:FR:SDIS:GRPT": "Sud-Est",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014"
+  }
+},
+{
+  "type": "way",
+  "id": 296901177,
+  "center": {
+    "lat": 44.1514569,
+    "lon": -0.7411338
+  },
+  "tags": {
+    "addr:city": "Sabres",
+    "addr:full": "Route de Bordeaux 40630 Sabres",
+    "addr:postcode": "40630",
+    "addr:street": "Route de Bordeaux",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Sabres",
+    "official_name": "SABRES",
+    "operator": "SDIS 40",
+    "operator:wikidata": "Q88763799",
+    "phone": "+33 5 58 07 57 08",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Sabres",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014"
+  }
+},
+{
+  "type": "way",
+  "id": 299520178,
+  "center": {
+    "lat": 43.6938132,
+    "lon": 6.8585570
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Saint-Vallier-de-Thiey",
+    "official_name": "SAINT-VALLIER-DE-THIEY",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "130",
+    "ref:FR:SDIS:CIE": "Grasse",
+    "short_name": "CPI Saint-Vallier-de-Thiey",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2014"
+  }
+},
+{
+  "type": "way",
+  "id": 323880021,
+  "center": {
+    "lat": 44.8334456,
+    "lon": -0.7004357
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "SSLIA",
+    "name": "SSLIA",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 329702607,
+  "center": {
+    "lat": 44.0655852,
+    "lon": -1.0698049
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "yes",
+    "contact:full": "181 route de Lestatjaou 40110 Onesse",
+    "contact:housenumber": "181",
+    "contact:street": "Route de Lestatjaou",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours d'Onesse",
+    "official_name": "ONESSE",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 04 36 91",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Onesse",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
+  }
+},
+{
+  "type": "way",
+  "id": 365330878,
+  "center": {
+    "lat": 45.1505600,
+    "lon": -0.8276785
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours de Saint-Laurent-Médoc",
+    "operator": "SDIS 33",
+    "ref": "STLA",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 396932135,
+  "center": {
+    "lat": 44.7444965,
+    "lon": 0.0753660
+  },
+  "tags": {
+    "addr:street": "Rue de la Poste",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours de Pellegrue",
+    "operator": "SDIS 33",
+    "ref": "PELL",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016"
+  }
+},
+{
+  "type": "way",
+  "id": 398045997,
+  "center": {
+    "lat": 44.4944680,
+    "lon": -0.1437540
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours d'Auros",
+    "operator": "SDIS 33",
+    "ref": "AURO",
+    "ref:FR:SDIS:GRPT": "Sud-Est",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 458544952,
+  "center": {
+    "lat": 44.1084915,
+    "lon": -0.1002027
+  },
+  "tags": {
+    "addr:full": "Chemin de l'Arbout 40240 Losse",
+    "addr:housenumber": "3",
+    "addr:street": "Chemin de l'Arbout",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'Incendie et de Secours de Losse",
+    "official_name": "LOSSE",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 93 60 09",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Losse"
+  }
+},
+{
+  "type": "way",
+  "id": 459195327,
+  "center": {
+    "lat": 44.8727694,
+    "lon": -0.5778253
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "barrier": "fence",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre d'incendie et de secours de Bruges",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "BRUG",
+    "ref:FR:SDIS:GRPT": "Centre-Centre",
+    "short_name": "CSP Bruges"
+  }
+},
+{
+  "type": "way",
+  "id": 476123214,
+  "center": {
+    "lat": 44.3974776,
+    "lon": -0.3496491
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "yes",
+    "name": "Centre d'incendie et de secours de Préchac",
+    "operator": "SDIS33",
+    "ref": "PREC",
+    "ref:FR:SDIS:GRPT": "Sud-Est",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 477004206,
+  "center": {
+    "lat": 44.2133625,
+    "lon": -0.9157191
+  },
+  "tags": {
+    "addr:full": "97 route de Solférino 40210 Labouheyre",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Labouheyre",
+    "official_name": "LABOUHEYRE",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 07 17 20",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CS Labouheyre",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017"
+  }
+},
+{
+  "type": "way",
+  "id": 482319152,
+  "center": {
+    "lat": 44.0942378,
+    "lon": -0.3983105
+  },
+  "tags": {
+    "addr:full": "818 route de Roquefort 40120 Lencouacq",
+    "addr:housenumber": "818",
+    "addr:street": "Route de Lencouacq",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Lencouacq",
+    "official_name": "LENCOUACQ",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 93 00 18",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Lencouacq",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017"
+  }
+},
+{
+  "type": "way",
+  "id": 496745528,
+  "center": {
+    "lat": 45.0865955,
+    "lon": -0.2939850
+  },
+  "tags": {
+    "addr:full": "ZAC du Piconat 33620 Lapouyade",
+    "addr:street": "ZAC du Piconat",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Lapouyade",
+    "official_name": "LAPOUYADE",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref:FR:RNB": "2CA3RNSM72S6",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "source": "IGN - 2023-09-15;cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017"
+  }
+},
+{
+  "type": "way",
+  "id": 541721831,
+  "center": {
+    "lat": 43.6143418,
+    "lon": 6.9675895
+  },
+  "tags": {
+    "addr:street": "Traverse de la Nartassière",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "check_date": "2026-09-30",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Mouans-Sartoux",
+    "official_name": "MOUANS-SARTOUX",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "85",
+    "ref:FR:SDIS:CIE": "Grasse",
+    "short_name": "CPI Mouans-Sartoux"
+  }
+},
+{
+  "type": "way",
+  "id": 548232908,
+  "center": {
+    "lat": 44.8188460,
+    "lon": -0.6480523
+  },
+  "tags": {
+    "alt_name": "Caserne Paul Saldou",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre d'incendie et de secours de Mérignac",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "MERI",
+    "ref:FR:SDIS:EM_GRPT": "Centre-Ouest",
+    "ref:FR:SDIS:GRPT": "Centre-Ouest",
+    "short_name": "CSP Mérignac"
+  }
+},
+{
+  "type": "way",
+  "id": 601820411,
+  "center": {
+    "lat": 44.4358299,
+    "lon": -1.2410900
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Unité élémentaire spécialisée de Biscarrosse",
+    "operator": "BSPP",
+    "operator:en": "Paris Fire Brigade",
+    "operator:wikidata": "Q583422",
+    "operator:wikipedia": "fr:Brigade de sapeurs-pompiers de Paris",
+    "short_name": "UES Biscarrosse"
+  }
+},
+{
+  "type": "way",
+  "id": 629234211,
+  "center": {
+    "lat": 43.5552435,
+    "lon": 6.9667822
+  },
+  "tags": {
+    "addr:housenumber": "11",
+    "addr:street": "Avenue Pierre de Coubertin",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre de secours principal Cannes-La Bocca",
+    "official_name": "CANNES LA BOCCA",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "329",
+    "ref:FR:SDIS:CIE": "Cannes",
+    "ref:FR:SDIS:PC_CIE": "Cannes",
+    "short_name": "CSP Cannes-La Bocca"
+  }
+},
+{
+  "type": "way",
+  "id": 660856604,
+  "center": {
+    "lat": 43.5911016,
+    "lon": 7.1173825
+  },
+  "tags": {
+    "addr:street": "Avenue Jules Grec",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre de secours principal d'Antibes",
+    "official_name": "ANTIBES",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "4",
+    "ref:FR:SDIS:CIE": "Antibes",
+    "ref:FR:SDIS:PC_CIE": "Antibes",
+    "short_name": "CSP Antibes"
+  }
+},
+{
+  "type": "way",
+  "id": 666777311,
+  "center": {
+    "lat": 45.1336656,
+    "lon": -0.6635210
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Blaye",
+    "operator": "SDIS 33",
+    "ref": "BLAY",
+    "ref:FR:SDIS:GRPT": "Nord-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 672338101,
+  "center": {
+    "lat": 43.6703983,
+    "lon": 7.1263587
+  },
+  "tags": {
+    "addr:city": "Cagnes-sur-Mer",
+    "addr:street": "Avenue des Alpes",
+    "amenity": "fire_station",
+    "check_date": "2025-02-11",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre de secours principal de Cagnes-sur-Mer",
+    "official_name": "CAGNES-SUR-MER",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "27",
+    "ref:FR:SDIS:CIE": "Cagnes-sur-Mer",
+    "ref:FR:SDIS:PC_CIE": "Cagnes-sur-Mer",
+    "short_name": "CSP Cagnes-sur-Mer",
+    "source": "aerial"
+  }
+},
+{
+  "type": "way",
+  "id": 677576368,
+  "center": {
+    "lat": 43.8047450,
+    "lon": 7.3242891
+  },
+  "tags": {
+    "addr:street": "Allée des Escaiouns",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Contes",
+    "official_name": "CONTES",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "48",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Contes"
+  }
+},
+{
+  "type": "way",
+  "id": 700528315,
+  "center": {
+    "lat": 43.5866295,
+    "lon": 6.9984507
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Mougins",
+    "official_name": "LE CANNET MOUGINS CABRIERES",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "84",
+    "ref:FR:SDIS:CIE": "Cannes",
+    "short_name": "CS Mougins"
+  }
+},
+{
+  "type": "way",
+  "id": 706373410,
+  "center": {
+    "lat": 43.7329837,
+    "lon": 7.3565367
+  },
+  "tags": {
+    "addr:street": "Boulevard du Maréchal Leclerc",
+    "amenity": "fire_station",
+    "check_date": "2025-10-03",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours d'Èze",
+    "official_name": "EZE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "59",
+    "ref:FR:SDIS:CIE": "Nice",
+    "short_name": "CPI Èze"
+  }
+},
+{
+  "type": "way",
+  "id": 744204063,
+  "center": {
+    "lat": 44.7845086,
+    "lon": -0.5815803
+  },
+  "tags": {
+    "alt_name": "Centre de Madère",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours de Villenave-d'Ornon",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "VILO",
+    "ref:FR:SDIS:GRPT": "Centre-Ouest",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 761762021,
+  "center": {
+    "lat": 43.7442832,
+    "lon": -1.3242534
+  },
+  "tags": {
+    "addr:full": "Rue decMancamp 40140 Soustons",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Soustons",
+    "official_name": "SOUSTONS",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 41 53 32",
+    "ref:FR:SDIS:CIE": "Côte Sud",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CS Soustons",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020"
+  }
+},
+{
+  "type": "way",
+  "id": 782725936,
+  "center": {
+    "lat": 44.4123369,
+    "lon": -1.1711625
+  },
+  "tags": {
+    "addr:city": "BISCARROSSE",
+    "addr:full": "175 route des Parterres 40600 Biscarrosse",
+    "addr:postcode": "40600",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre d'incendie et de secours de Biscarrosse",
+    "official_name": "BISCARROSSE",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 82 74 74",
+    "ref:FR:SDIS:CIE": "Biscarrosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CSP Biscarrosse"
+  }
+},
+{
+  "type": "way",
+  "id": 803126878,
+  "center": {
+    "lat": 43.6354589,
+    "lon": -0.3735361
+  },
+  "tags": {
+    "addr:full": "Rue du Bas 40320 Geaune",
+    "addr:street": "Rue du Bas",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Geaune",
+    "official_name": "GEAUNE",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 44 58 21",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Geaune"
+  }
+},
+{
+  "type": "way",
+  "id": 803126879,
+  "center": {
+    "lat": 43.7000195,
+    "lon": -0.2616830
+  },
+  "tags": {
+    "addr:full": "Place de l’Hôtel de Ville 40800 Aire-sur-l’Adour",
+    "addr:street": "Place de l'Hôtel de Ville",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de l'Aire-sur-l'Adour",
+    "official_name": "AIRE SUR L’ ADOUR",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 71 63 44",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CS Aire-sur-l'Adour",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 803130869,
+  "center": {
+    "lat": 43.8254463,
+    "lon": -0.7989623
+  },
+  "tags": {
+    "addr:full": "Route de Saint-Sever 40400 Tartas",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Tartas",
+    "official_name": "TARTAS",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 73 33 28",
+    "ref:FR:SDIS:CIE": "Dax",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Tartas"
+  }
+},
+{
+  "type": "way",
+  "id": 803886227,
+  "center": {
+    "lat": 43.7993675,
+    "lon": -1.3881330
+  },
+  "tags": {
+    "addr:full": "2000 route des Lacs 40660 Messanges",
+    "addr:street": "Route des Lacs",
+    "amenity": "fire_station",
+    "description": "Centre d'incendie et de secours",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Albret-Moïsan",
+    "official_name": "ALBRET-MOÏSAN",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 48 12 98",
+    "ref:FR:SDIS:CIE": "Côte Sud",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Albret-Moïsan",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014"
+  }
+},
+{
+  "type": "way",
+  "id": 803900235,
+  "center": {
+    "lat": 43.6485528,
+    "lon": -1.4104602
+  },
+  "tags": {
+    "addr:full": "6 rue du Hapchot 40130 Capbreton",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Capbreton",
+    "official_name": "CAPBRETON",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 72 11 80",
+    "ref:FR:SDIS:CIE": "Côte Sud",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CS Capbreton"
+  }
+},
+{
+  "type": "way",
+  "id": 803902867,
+  "center": {
+    "lat": 43.8776894,
+    "lon": -1.1505765
+  },
+  "tags": {
+    "addr:full": "6 impasse de la Gare 40260 Castets",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Castets",
+    "official_name": "CASTETS",
+    "operator": "SDIS 40",
+    "operator:wikidata": "Q88763799",
+    "phone": "+33 5 58 89 48 06",
+    "ref:FR:SDIS:CIE": "Côte Sud",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Castets"
+  }
+},
+{
+  "type": "way",
+  "id": 804437421,
+  "center": {
+    "lat": 43.5722990,
+    "lon": -0.9271040
+  },
+  "tags": {
+    "addr:full": "33 route de Tilh 40290 Habas",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Habas",
+    "official_name": "HABAS",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 98 08 83",
+    "ref:FR:SDIS:CIE": "Dax",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Habas"
+  }
+},
+{
+  "type": "way",
+  "id": 804453350,
+  "center": {
+    "lat": 44.1069593,
+    "lon": -0.5488772
+  },
+  "tags": {
+    "addr:full": "125 route de la Gare 40420 Labrit",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Labrit",
+    "official_name": "LABRIT",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 51 04 47",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CS Labrit"
+  }
+},
+{
+  "type": "way",
+  "id": 804454827,
+  "center": {
+    "lat": 43.8724946,
+    "lon": -1.2984212
+  },
+  "tags": {
+    "addr:full": "124 route de Laguens 40550 Léon",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Léon",
+    "official_name": "LÉON",
+    "operator": "SDIS 40",
+    "operator:wikidata": "Q88763799",
+    "phone": "+33 5 58 48 71 59",
+    "ref:FR:SDIS:CIE": "Côte Sud",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CS Léon"
+  }
+},
+{
+  "type": "way",
+  "id": 804721960,
+  "center": {
+    "lat": 43.9709306,
+    "lon": -1.0881676
+  },
+  "tags": {
+    "addr:full": "Route des Cèpes 40260 Lesperon",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Lesperon",
+    "official_name": "LESPERON",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 89 62 44",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Lesperon"
+  }
+},
+{
+  "type": "way",
+  "id": 804728372,
+  "center": {
+    "lat": 43.9211454,
+    "lon": -1.2485902
+  },
+  "tags": {
+    "addr:full": "Rue des Jardins 40260 Linxe",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Linxe",
+    "official_name": "LINXE",
+    "operator": "SDIS 40",
+    "operator:wikidata": "Q88763799",
+    "phone": "+33 5 58 42 97 77",
+    "ref:FR:SDIS:CIE": "Côte Sud",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Linxe"
+  }
+},
+{
+  "type": "way",
+  "id": 804733215,
+  "center": {
+    "lat": 44.0230267,
+    "lon": -1.2539669
+  },
+  "tags": {
+    "addr:full": "531 route de Lugadets 40170 Lit-et-Mixe",
+    "addr:housenumber": "531",
+    "addr:street": "Route de Lugadets",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Lit-et-Mixe",
+    "official_name": "LIT-ET-MIXE",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 42 43 98",
+    "ref:FR:SDIS:CIE": "Côte Sud",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Lit-et-Mixe"
+  }
+},
+{
+  "type": "way",
+  "id": 804741445,
+  "center": {
+    "lat": 43.7875531,
+    "lon": -1.2183428
+  },
+  "tags": {
+    "addr:full": "99 rue François Donnan 40140 Magescq",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Magescq",
+    "official_name": "MAGESCQ",
+    "operator": "SDIS 40",
+    "operator:wikidata": "Q88763799",
+    "phone": "+33 5 58 47 76 56",
+    "ref:FR:SDIS:CIE": "Côte Sud",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Magescq"
+  }
+},
+{
+  "type": "way",
+  "id": 804745541,
+  "center": {
+    "lat": 44.0815112,
+    "lon": -1.1563385
+  },
+  "tags": {
+    "addr:full": "365 Rue des Artisans 40170 Mézos",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Mézos",
+    "official_name": "MÉZOS",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 42 62 07",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Mézos"
+  }
+},
+{
+  "type": "way",
+  "id": 806570171,
+  "center": {
+    "lat": 44.2074813,
+    "lon": -1.2417708
+  },
+  "tags": {
+    "addr:full": "6 avenue de la plage 40200 Mimizan",
+    "amenity": "fire_station",
+    "contact:housenumber": "6",
+    "contact:street": "Avenue de la Plage",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Mimizan",
+    "name:oc": "Pompièrs",
+    "official_name": "MIMIZAN",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 09 00 18",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CS Mimizan"
+  }
+},
+{
+  "type": "way",
+  "id": 806571739,
+  "center": {
+    "lat": 43.8519722,
+    "lon": -1.3607010
+  },
+  "tags": {
+    "addr:full": "380 avenue de l’Océan 40660 Moliets",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Moliets",
+    "official_name": "MOLIETS",
+    "operator": "SDIS 40",
+    "operator:wikidata": "Q88763799",
+    "phone": "+33 5 58 48 50 81",
+    "ref:FR:SDIS:CIE": "Côte Sud",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Moliets"
+  }
+},
+{
+  "type": "way",
+  "id": 806573001,
+  "center": {
+    "lat": 44.0435896,
+    "lon": -0.9112520
+  },
+  "tags": {
+    "addr:city": "Morcenx",
+    "addr:full": "Avenue du 8 mai 1945 40110 Morcenx",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Morcenx",
+    "official_name": "MORCENX",
+    "operator": "SDIS 40",
+    "operator:wikidata": "Q88763799",
+    "phone": "+33 5 58 07 83 88",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CS Morcenx"
+  }
+},
+{
+  "type": "way",
+  "id": 807370278,
+  "center": {
+    "lat": 43.7425710,
+    "lon": -0.7391792
+  },
+  "tags": {
+    "addr:full": "2 Zone artisanale Laouranne 40250 Mugron",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Mugron",
+    "official_name": "MUGRON",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 97 95 90",
+    "ref:FR:SDIS:CIE": "Dax",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Mugron"
+  }
+},
+{
+  "type": "way",
+  "id": 807371455,
+  "center": {
+    "lat": 43.5459256,
+    "lon": -1.0970530
+  },
+  "tags": {
+    "addr:full": "33 avenue Bourgfelden 40300 Peyrehorade",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "image": "http://www.image-heberg.fr/files/17629378972776327913.jpg",
+    "name": "Centre d'incendie et de secours de Peyrehorade",
+    "official_name": "PEYREHORADE",
+    "operator": "SDIS 40",
+    "operator:wikidata": "Q88763799",
+    "phone": "+33 5 58 73 62 95",
+    "ref:FR:SDIS:CIE": "Dax",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Peyrehorade"
+  }
+},
+{
+  "type": "way",
+  "id": 807585926,
+  "center": {
+    "lat": 44.3453208,
+    "lon": -1.0721780
+  },
+  "tags": {
+    "addr:full": "Rue du Château d'Eau 40160 Parentis-en-Born",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Parentis-en-Born",
+    "official_name": "PARENTIS-EN-BORN",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 78 51 77",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Parentis-en-Born",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020"
+  }
+},
+{
+  "type": "way",
+  "id": 807588386,
+  "center": {
+    "lat": 44.2427874,
+    "lon": -1.1254043
+  },
+  "tags": {
+    "addr:full": "24 route de Sainte Eulalie 40200 Pontenx-les-Forges",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Pontenx-les-Forges",
+    "official_name": "PONTENX-LES-FORGES",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 07 48 27",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Pontenx-les-Forges"
+  }
+},
+{
+  "type": "way",
+  "id": 807590094,
+  "center": {
+    "lat": 43.9330940,
+    "lon": -0.9134197
+  },
+  "tags": {
+    "addr:full": "715 avenue Albert Poisson 40370 Rion-des-Landes",
+    "amenity": "fire_station",
+    "check_date": "2025-10-11",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Rion-des-Landes",
+    "official_name": "RION-DES-LANDES",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 57 15 87",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Rion-des-Landes"
+  }
+},
+{
+  "type": "way",
+  "id": 807595855,
+  "center": {
+    "lat": 44.0502257,
+    "lon": -0.3206961
+  },
+  "tags": {
+    "addr:full": "Route de Bordeaux, ZA de Nauton, D 932N 40120 Arue",
+    "addr:housenumber": "121",
+    "addr:street": "Route de Bordeaux",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'Incendie et de Secours de Roquefort",
+    "official_name": "ROQUEFORT",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 45 55 76",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Roquefort"
+  }
+},
+{
+  "type": "way",
+  "id": 807599122,
+  "center": {
+    "lat": 43.6076660,
+    "lon": -0.9914384
+  },
+  "tags": {
+    "addr:full": "Allée du Temps Libre 40350 Pouillon",
+    "amenity": "fire_station",
+    "check_date": "2025-12-13",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Pouillon",
+    "official_name": "POUILLON",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 98 30 43",
+    "ref:FR:SDIS:CIE": "Dax",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Pouillon"
+  }
+},
+{
+  "type": "way",
+  "id": 807604782,
+  "center": {
+    "lat": 44.0690098,
+    "lon": -1.2357620
+  },
+  "tags": {
+    "addr:full": "459 route du Sable Blanc 40170 Saint-Julien-en-Born",
+    "amenity": "fire_station",
+    "contact:housenumber": "459",
+    "contact:street": "Route du Sable Blanc",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Saint-Julien-en-Born",
+    "official_name": "SAINT-JULIEN-EN-BORN",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 42 80 86",
+    "ref:FR:SDIS:CIE": "Côte Sud",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CS Saint-Julien-en-Born"
+  }
+},
+{
+  "type": "way",
+  "id": 807608640,
+  "center": {
+    "lat": 43.9776433,
+    "lon": -0.2372180
+  },
+  "tags": {
+    "addr:full": "22 Avenue Guillaume de Villaret 40240 Saint-Justin",
+    "addr:housenumber": "22",
+    "addr:street": "Avenue Guillaume de Villaret",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'Incendie et de Secours de Saint-Justin",
+    "official_name": "SAINT-JUSTIN",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 44 82 19",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CS Saint-Justin",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 807611240,
+  "center": {
+    "lat": 43.8720224,
+    "lon": -0.5796709
+  },
+  "tags": {
+    "addr:full": "Route du Rotche 40090 Saint Perdon",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Saint-Perdon",
+    "official_name": "SAINT-PERDON",
+    "operator": "SDIS 40",
+    "operator:wikidata": "Q88763799",
+    "phone": "+33 5 58 03 30 77",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Saint-Perdon"
+  }
+},
+{
+  "type": "way",
+  "id": 807613668,
+  "center": {
+    "lat": 43.5419273,
+    "lon": -1.3734205
+  },
+  "tags": {
+    "addr:full": "550 route Océane 40390 Saint-Martin-de-Seignanx",
+    "addr:housenumber": "550",
+    "addr:street": "Route Océane",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Saint-Martin-de-Seignanx",
+    "official_name": "SAINT-MARTIN-DE-SEIGNANX",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 56 15 30",
+    "ref:FR:SDIS:CIE": "Côte Sud",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Saint-Martin-de-Seignanx"
+  }
+},
+{
+  "type": "way",
+  "id": 807617702,
+  "center": {
+    "lat": 43.7518955,
+    "lon": -0.5735482
+  },
+  "tags": {
+    "addr:full": "Boulevard de l'Espérance 40500 Saint Sever",
+    "addr:street": "Impasse Marc Antoine",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Saint-Sever",
+    "official_name": "SAINT-SEVER",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 76 19 33",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Saint-Sever"
+  }
+},
+{
+  "type": "way",
+  "id": 807626300,
+  "center": {
+    "lat": 43.6743641,
+    "lon": -1.2876885
+  },
+  "tags": {
+    "addr:full": "24 Voie Romaine 40230 Saint-Vincent-de-Tyrosse",
+    "addr:housenumber": "24",
+    "addr:street": "Voie Romaine",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Saint-Vincent-de-Tyrosse",
+    "official_name": "SAINT-VINCENT-DE-TYROSSE",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 77 19 32",
+    "ref:FR:SDIS:CIE": "Côte Sud",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CS Saint-Vincent-de-Tyrosse"
+  }
+},
+{
+  "type": "way",
+  "id": 807634547,
+  "center": {
+    "lat": 44.3259827,
+    "lon": -0.5708324
+  },
+  "tags": {
+    "addr:full": "835 boulevard de la Gare 40430 Sore",
+    "addr:housenumber": "835",
+    "addr:street": "Boulevard de la Gare",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Sore",
+    "official_name": "SORE",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 07 60 87",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Sore"
+  }
+},
+{
+  "type": "way",
+  "id": 807637981,
+  "center": {
+    "lat": 43.6330921,
+    "lon": -0.4853920
+  },
+  "tags": {
+    "addr:full": "Route d’Arzacq 40320 Samadet",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Samadet",
+    "official_name": "SAMADET",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 79 61 94",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Samadet"
+  }
+},
+{
+  "type": "way",
+  "id": 807640197,
+  "center": {
+    "lat": 43.7870930,
+    "lon": -0.7027877
+  },
+  "tags": {
+    "addr:city": "Souprosse",
+    "addr:full": "Avenue du 19 mars 1962 40250 Souprosse",
+    "addr:postcode": "40250",
+    "addr:street": "Allée du Compeyron",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Souprosse",
+    "official_name": "SOUPROSSE",
+    "operator": "SDIS 40",
+    "operator:wikidata": "Q88763799",
+    "phone": "+33 5 58 44 25 20",
+    "ref:FR:SDIS:CIE": "Dax",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Souprosse"
+  }
+},
+{
+  "type": "way",
+  "id": 807646208,
+  "center": {
+    "lat": 44.4750457,
+    "lon": -1.0718907
+  },
+  "tags": {
+    "addr:full": "918 avenue du Born 40460 Sanguinet",
+    "addr:housenumber": "918",
+    "addr:street": "Avenue du Born",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Sanguinet",
+    "official_name": "SANGUINET",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 78 68 03",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Sanguinet"
+  }
+},
+{
+  "type": "way",
+  "id": 807650003,
+  "center": {
+    "lat": 44.3261506,
+    "lon": -0.9436191
+  },
+  "tags": {
+    "addr:full": "Rue des Fontaines 40160 Ychoux",
+    "addr:housenumber": "3",
+    "addr:street": "Rue des Fontaines",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours d'Ychoux",
+    "official_name": "YCHOUX",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 82 32 76",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Ychoux"
+  }
+},
+{
+  "type": "way",
+  "id": 807785168,
+  "center": {
+    "lat": 43.8830352,
+    "lon": -0.3060717
+  },
+  "tags": {
+    "addr:full": "1039 avenue des Pyrénées 40190 Villeneuve-de-Marsan",
+    "addr:housenumber": "1039",
+    "addr:street": "Avenue des Pyrénées",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'Incendie et de Secours de Villeneuve-de-Marsan",
+    "official_name": "VILLENEUVE-DE-MARSAN",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 45 38 00",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Villeneuve-de-Marsan"
+  }
+},
+{
+  "type": "way",
+  "id": 807787580,
+  "center": {
+    "lat": 43.6929491,
+    "lon": -1.3246878
+  },
+  "tags": {
+    "addr:full": "5 rue du Marlé 40230 Tosse",
+    "addr:housenumber": "5",
+    "addr:street": "Rue du Marlé",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Tosse",
+    "official_name": "TOSSE",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 43 04 74",
+    "ref:FR:SDIS:CIE": "Côte Sud",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Tosse"
+  }
+},
+{
+  "type": "way",
+  "id": 807788508,
+  "center": {
+    "lat": 43.9843230,
+    "lon": -0.7470167
+  },
+  "tags": {
+    "addr:full": "365 route de Mimizan 40110 Ygos-Saint-Saturnin",
+    "amenity": "fire_station",
+    "contact:housenumber": "365",
+    "contact:street": "Route de Mimizan",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours d'Ygos",
+    "official_name": "YGOS",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 51 80 48",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CPI Ygos"
+  }
+},
+{
+  "type": "way",
+  "id": 807790549,
+  "center": {
+    "lat": 43.7988364,
+    "lon": -0.9184364
+  },
+  "tags": {
+    "addr:full": "64 rue du Pignada 40465 Pontonx-sur-l'Adour",
+    "addr:housenumber": "64",
+    "addr:street": "Rue du Pignada",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Pontonx-sur-l'Adour",
+    "official_name": "PONTONX-SUR-L’ADOUR",
+    "operator": "SDIS 40",
+    "phone": "+33 5 58 57 95 16",
+    "ref:FR:SDIS:CIE": "Dax",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CPI Pontonx-sur-l'Adour"
+  }
+},
+{
+  "type": "way",
+  "id": 808788184,
+  "center": {
+    "lat": 44.7711070,
+    "lon": -0.3482900
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "check_date": "2026-01-05",
+    "name": "Centre d'incendie et de secours de Créon",
+    "operator": "SDIS 33",
+    "ref": "CREO",
+    "ref:FR:SDIS:GRPT": "Centre-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 830853503,
+  "center": {
+    "lat": 44.4268212,
+    "lon": -0.4893416
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Saint-Symphorien",
+    "official_name": "ST SYMPHORIEN",
+    "operator": "SDIS 33",
+    "ref": "STSY",
+    "ref:FR:SDIS:GRPT": "Sud-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 830858092,
+  "center": {
+    "lat": 44.5461327,
+    "lon": -0.2535794
+  },
+  "tags": {
+    "addr:full": "30 boulevard Jean Moulin 33210 Langon",
+    "addr:street": "Boulevard Jean Moulin",
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Langon",
+    "official_name": "LANGON",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "LANG",
+    "ref:FR:SDIS:EM_GRPT": "Sud-Est",
+    "ref:FR:SDIS:GRPT": "Sud-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 830863992,
+  "center": {
+    "lat": 44.4349050,
+    "lon": -0.2195516
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Bazas",
+    "official_name": "BAZAS",
+    "operator": "SDIS 33",
+    "ref": "BAZA",
+    "ref:FR:SDIS:GRPT": "Sud-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 857326135,
+  "center": {
+    "lat": 43.9416414,
+    "lon": 7.5150594
+  },
+  "tags": {
+    "addr:street": "Rue des Métiers",
+    "amenity": "fire_station",
+    "check_date": "2024-03-11",
+    "fire_station:type:FR": "BF",
+    "name": "Force 06 - Base de Breil-sur-Roya",
+    "operator:wikidata": "Q23782139",
+    "ref:FR:OpenDFCI": "1619"
+  }
+},
+{
+  "type": "way",
+  "id": 857326136,
+  "center": {
+    "lat": 43.9421035,
+    "lon": 7.5152636
+  },
+  "tags": {
+    "addr:street": "Rue des Métiers",
+    "amenity": "fire_station",
+    "check_date": "2024-03-11",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Breil-sur-Roya",
+    "official_name": "BREIL-SUR-ROYA",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:OpenDFCI": "1632",
+    "ref:FR:SDIS": "23",
+    "ref:FR:SDIS:CIE": "Pays mentonnais",
+    "short_name": "CPI Breil-sur-Roya"
+  }
+},
+{
+  "type": "way",
+  "id": 857548720,
+  "center": {
+    "lat": 44.0914250,
+    "lon": 7.5917885
+  },
+  "tags": {
+    "addr:street": "Avenue du 16 Septembre 1947",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Tende",
+    "official_name": "TENDE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:OpenDFCI": "1686",
+    "ref:FR:SDIS": "163",
+    "ref:FR:SDIS:CIE": "Pays mentonnais",
+    "short_name": "CPI Tende",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 857631552,
+  "center": {
+    "lat": 43.8067051,
+    "lon": 7.4880042
+  },
+  "tags": {
+    "addr:full": "922 avenue de Saint-Roman 06500 Menton",
+    "addr:street": "Avenue de Saint-Roman",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre de secours principal de Menton",
+    "official_name": "MENTON",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:OpenDFCI": "1639",
+    "ref:FR:SDIS": "83",
+    "ref:FR:SDIS:CIE": "Pays mentonnais",
+    "ref:FR:SDIS:PC_CIE": "Pays mentonnais",
+    "short_name": "CSP Menton"
+  }
+},
+{
+  "type": "way",
+  "id": 857631553,
+  "center": {
+    "lat": 43.8787509,
+    "lon": 7.4526931
+  },
+  "tags": {
+    "addr:street": "Rue de la République",
+    "amenity": "fire_station",
+    "check_date": "2026-08-01",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Sospel",
+    "official_name": "SOSPEL",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:OpenDFCI": "1651",
+    "ref:FR:SDIS": "136",
+    "ref:FR:SDIS:CIE": "Pays mentonnais",
+    "short_name": "CPI Sospel"
+  }
+},
+{
+  "type": "way",
+  "id": 862158934,
+  "center": {
+    "lat": 43.9980651,
+    "lon": 7.3165805
+  },
+  "tags": {
+    "addr:city": "Lantosque",
+    "amenity": "fire_station",
+    "building": "yes",
+    "name": "Sapeurs-Pompiers de Lantosque"
+  }
+},
+{
+  "type": "way",
+  "id": 890842111,
+  "center": {
+    "lat": 44.8512901,
+    "lon": -0.0633048
+  },
+  "tags": {
+    "addr:street": "Chemin des Vignes",
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Castillon-la-Bataille",
+    "operator": "SDIS 33",
+    "ref": "CASB",
+    "ref:FR:SDIS:GRPT": "Nord-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 925624248,
+  "center": {
+    "lat": 45.0071904,
+    "lon": -0.6122321
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "check_date": "2025-08-08",
+    "name": "Centre d'incendie et de secours de Macau",
+    "operator": "SDIS 33",
+    "ref": "MACA",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 925624249,
+  "center": {
+    "lat": 45.0429707,
+    "lon": -0.6805284
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Margaux",
+    "operator": "SDIS 33",
+    "ref": "SOMG",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 925624250,
+  "center": {
+    "lat": 45.0569531,
+    "lon": -0.6984382
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "name": "Centre d'incendie et de secours de Soussans",
+    "operator": "SDIS 33",
+    "ref": "SOMG",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 925624251,
+  "center": {
+    "lat": 44.9360138,
+    "lon": -0.8285042
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Salaunes",
+    "operator": "SDIS 33",
+    "ref": "SALA",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 925703829,
+  "center": {
+    "lat": 45.3104689,
+    "lon": -0.9219644
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Lesparre-Médoc",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "LESP",
+    "ref:FR:SDIS:EM_GRPT": "Nord-Ouest",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 925703830,
+  "center": {
+    "lat": 45.1977629,
+    "lon": -0.7570228
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Pauillac",
+    "operator": "SDIS 33",
+    "ref": "PAUI",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 934669103,
+  "center": {
+    "lat": 44.8882509,
+    "lon": -0.5423043
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "SDIS 33",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "source": "https://www.sudouest.fr/gironde/bordeaux/bordeaux-33-la-premiere-pierre-a-l-edifice-de-nouvelles-infrastructures-pour-les-pompiers-1348343.php"
+  }
+},
+{
+  "type": "way",
+  "id": 964937394,
+  "center": {
+    "lat": 43.5753897,
+    "lon": 7.0499396
+  },
+  "tags": {
+    "addr:street": "Avenue de Cannes",
+    "amenity": "fire_station",
+    "check_date": "2024-12-27",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Vallauris",
+    "official_name": "VALLAURIS",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "155",
+    "ref:FR:SDIS:CIE": "Antibes",
+    "short_name": "CS Vallauris"
+  }
+},
+{
+  "type": "way",
+  "id": 967065481,
+  "center": {
+    "lat": 45.0445324,
+    "lon": -0.1231532
+  },
+  "tags": {
+    "addr:street": "Rue du Général Soulé",
+    "amenity": "fire_station",
+    "check_date": "2025-05-17",
+    "name": "Centre d'incendie et de secours de Coutras/Lapouyade",
+    "operator": "SDIS 33",
+    "ref": "COUT",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 967066304,
+  "center": {
+    "lat": 44.6884118,
+    "lon": -0.5105323
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de La Brède",
+    "operator": "SDIS 33",
+    "ref": "BRED",
+    "ref:FR:SDIS:GRPT": "Sud-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 967073687,
+  "center": {
+    "lat": 44.7985316,
+    "lon": -1.1412357
+  },
+  "tags": {
+    "addr:city": "Lège-Cap-Ferret",
+    "addr:street": "Avenue du Médoc",
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Lège/Cap Ferret/Arès",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "LEGE",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest"
+  }
+},
+{
+  "type": "way",
+  "id": 967073691,
+  "center": {
+    "lat": 44.9143968,
+    "lon": -0.2231554
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre d'incendie et de secours de Libourne",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "LIBO",
+    "ref:FR:SDIS:EM_GRPT": "Nord-Est",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CSP Libourne"
+  }
+},
+{
+  "type": "way",
+  "id": 967073693,
+  "center": {
+    "lat": 45.1870979,
+    "lon": -1.0561044
+  },
+  "tags": {
+    "addr:street": "Rue Alain Cassagne",
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours d'Hourtin",
+    "operator": "SDIS 33",
+    "ref": "HOUR",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest"
+  }
+},
+{
+  "type": "way",
+  "id": 967073694,
+  "center": {
+    "lat": 44.8282269,
+    "lon": -0.1853399
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Branne",
+    "operator": "SDIS 33",
+    "ref": "BRAN",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
+  "id": 967073695,
+  "center": {
+    "lat": 44.6048097,
+    "lon": -1.1977641
+  },
+  "tags": {
+    "addr:street": "Avenue du Colonel Salou",
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours du Pyla-sur-Mer",
+    "operator": "SDIS 33",
+    "ref": "PYLA",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest"
+  }
+},
+{
+  "type": "way",
+  "id": 967078227,
+  "center": {
+    "lat": 44.8113366,
+    "lon": -0.7777188
+  },
+  "tags": {
+    "addr:street": "Avenue de Bordeaux",
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Saint-Jean-d'Illac",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "STJE",
+    "ref:FR:SDIS:GRPT": "Centre-Ouest"
+  }
+},
+{
+  "type": "way",
+  "id": 967092871,
+  "center": {
+    "lat": 44.6894395,
+    "lon": -0.8574731
+  },
+  "tags": {
+    "addr:city": "Marcheprime",
+    "addr:postcode": "33380",
+    "addr:street": "Rue de la Gare",
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Marcheprime",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "MARC",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest"
+  }
+},
+{
+  "type": "way",
+  "id": 967092872,
+  "center": {
+    "lat": 44.3855256,
+    "lon": -0.0406104
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Grignols",
+    "operator": "SDIS 33",
+    "ref": "GRIG",
+    "ref:FR:SDIS:GRPT": "Sud-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 967099084,
+  "center": {
+    "lat": 45.0424087,
+    "lon": -0.5578371
+  },
+  "tags": {
+    "addr:street": "Allée du Docteur Abadie",
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Bourg-sur-Gironde",
+    "operator": "SDIS 33",
+    "ref": "BOUR",
+    "ref:FR:SDIS:GRPT": "Nord-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 967099085,
+  "center": {
+    "lat": 45.0121537,
+    "lon": -0.5389919
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Cambès",
+    "operator": "SDIS 33",
+    "ref": "AMBE",
+    "ref:FR:SDIS:GRPT": "Centre-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 967100658,
+  "center": {
+    "lat": 44.5679311,
+    "lon": -0.2270329
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "check_date": "2025-11-21",
+    "name": "Centre d'incendie et de secours de Saint-Macaire",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "STMA",
+    "ref:FR:SDIS:GRPT": "Sud-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 967100660,
+  "center": {
+    "lat": 44.6464231,
+    "lon": -1.2548765
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours du Cap-Ferret",
+    "operator": "SDIS 33",
+    "ref": "CAPF",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest"
+  }
+},
+{
+  "type": "way",
+  "id": 968595746,
+  "center": {
+    "lat": 44.6390302,
+    "lon": -0.9523383
+  },
+  "tags": {
+    "addr:street": "Rue Henri Fabre",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Biganos",
+    "operator": "SDIS 33",
+    "ref": "BIGA",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "short_name": "CS Biganos"
+  }
+},
+{
+  "type": "way",
+  "id": 968595753,
+  "center": {
+    "lat": 44.9060384,
+    "lon": -0.5039407
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Bassens",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "BASS",
+    "ref:FR:SDIS:GRPT": "Centre-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 968595754,
+  "center": {
+    "lat": 44.9895893,
+    "lon": -0.4495906
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Saint-André-de-Cubzac",
+    "operator": "SDIS 33",
+    "ref": "STAN",
+    "ref:FR:SDIS:GRPT": "Nord-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 968595755,
+  "center": {
+    "lat": 45.5434392,
+    "lon": -1.0614507
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours du Verdon",
+    "operator": "SDIS 33",
+    "ref": "VERD",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 968595759,
+  "center": {
+    "lat": 44.6530208,
+    "lon": -0.3336332
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Cadillac-Béguey",
+    "operator": "SDIS 33",
+    "ref": "CADI",
+    "ref:FR:SDIS:GRPT": "Sud-Est",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 968595760,
+  "center": {
+    "lat": 45.2959738,
+    "lon": -0.6135975
+  },
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:street": "Avenue Charles de Gaulle",
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Saint-Ciers-sur-Gironde",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "STCI",
+    "ref:FR:SDIS:GRPT": "Nord-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 968595761,
+  "center": {
+    "lat": 44.5821032,
+    "lon": -0.0321867
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de La Réole",
+    "operator": "SDIS 33",
+    "ref": "REOL",
+    "ref:FR:SDIS:GRPT": "Sud-Est",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 968595762,
+  "center": {
+    "lat": 44.7350903,
+    "lon": -0.2620049
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Targon",
+    "operator": "SDIS 33",
+    "ref": "TARGO",
+    "ref:FR:SDIS:GRPT": "Sud-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 968595764,
+  "center": {
+    "lat": 44.4727802,
+    "lon": -0.0726255
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours d'Aillas",
+    "operator": "SDIS 33",
+    "ref": "AILL",
+    "ref:FR:SDIS:GRPT": "Sud-Est",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 968595765,
+  "center": {
+    "lat": 44.3702944,
+    "lon": -0.2456863
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Bernos-Beaulac",
+    "operator": "SDIS 33",
+    "ref": "BERN",
+    "ref:FR:SDIS:GRPT": "Sud-Est",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 968595767,
+  "center": {
+    "lat": 44.6909492,
+    "lon": -0.0894470
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Sauveterre-de-Guyenne",
+    "operator": "SDIS 33",
+    "ref": "SAUV",
+    "ref:FR:SDIS:GRPT": "Sud-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 968595768,
+  "center": {
+    "lat": 44.7085450,
+    "lon": -1.0287982
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Lanton",
+    "operator": "SDIS 33",
+    "ref": "LANT",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 968595769,
+  "center": {
+    "lat": 44.6065997,
+    "lon": -0.5525170
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Cabanac-et-Villegrains",
+    "operator": "SDIS 33",
+    "ref": "CABA",
+    "ref:FR:SDIS:GRPT": "Sud-Est",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 968595770,
+  "center": {
+    "lat": 44.6366919,
+    "lon": -1.0199087
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours du Teich",
+    "operator": "SDIS 33",
+    "ref": "TEIC",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 968595771,
+  "center": {
+    "lat": 44.6258986,
+    "lon": -1.0723076
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Gujan-Mestras",
+    "operator": "SDIS 33",
+    "ref": "GUJA",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "source": "IGN - 09/2020"
+  }
+},
+{
+  "type": "way",
+  "id": 968595772,
+  "center": {
+    "lat": 44.6503409,
+    "lon": 0.0875875
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Monségur",
+    "operator": "SDIS 33",
+    "ref": "MONS",
+    "ref:FR:SDIS:GRPT": "Sud-Est"
+  }
+},
+{
+  "type": "way",
+  "id": 968595774,
+  "center": {
+    "lat": 44.4936283,
+    "lon": -0.7906567
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de Belin-Beliet",
+    "operator": "SDIS 33",
+    "ref": "BELI",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest"
+  }
+},
+{
+  "type": "way",
+  "id": 992186156,
+  "center": {
+    "lat": 44.8893566,
+    "lon": -0.5423434
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "SDIS 33",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687"
+  }
+},
+{
+  "type": "way",
+  "id": 992186157,
+  "center": {
+    "lat": 44.8897926,
+    "lon": -0.5430466
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "SDIS 33",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687"
+  }
+},
+{
+  "type": "way",
+  "id": 992186165,
+  "center": {
+    "lat": 44.8923822,
+    "lon": -0.5422442
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "layer": "1",
+    "name": "SDIS 33",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687"
+  }
+},
+{
+  "type": "way",
+  "id": 992186176,
+  "center": {
+    "lat": 44.8913672,
+    "lon": -0.5438917
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "SDISS 33"
+  }
+},
+{
+  "type": "way",
+  "id": 1017320549,
+  "center": {
+    "lat": 43.7030694,
+    "lon": 7.1791410
+  },
+  "tags": {
+    "addr:street": "Allée des Agriculteurs",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "US",
+    "name": "Centre d'incendie et de secours de Saint-Laurent-du-Var",
+    "official_name": "ST LAURENT DU VAR",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref": "SLV",
+    "ref:FR:SDIS": "123",
+    "ref:FR:SDIS:CIE": "Cagnes-sur-Mer",
+    "short_name": "APS Saint-Laurent-du-Var",
+    "source": "IGN - 2021-09"
+  }
+},
+{
+  "type": "way",
+  "id": 1017348216,
+  "center": {
+    "lat": 43.7100490,
+    "lon": 7.1960577
+  },
+  "tags": {
+    "addr:street": "Avenue Pierre de Coubertin",
+    "amenity": "fire_station",
+    "check_date": "2025-09-13",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours Nice-Saint Isidore",
+    "official_name": "NICE-ST ISIDORE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "393",
+    "ref:FR:SDIS:CIE": "Nice",
+    "short_name": "CS Nice-Saint Isidore"
+  }
+},
+{
+  "type": "way",
+  "id": 1017348218,
+  "center": {
+    "lat": 43.7275954,
+    "lon": 7.2855468
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre de secours principal Nice-Bon Voyage",
+    "official_name": "NICE-BON VOYAGE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "391",
+    "ref:FR:SDIS:CIE": "Nice",
+    "short_name": "CSP Nice-Bon Voyage",
+    "source": "IGN - 2021-09"
+  }
+},
+{
+  "type": "way",
+  "id": 1017348222,
+  "center": {
+    "lat": 43.6991850,
+    "lon": 7.2887340
+  },
+  "tags": {
+    "addr:street": "Rue Fodéré",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre de secours principal Nice-Fodéré",
+    "official_name": "Nice Fodéré",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref": "NFOD",
+    "ref:FR:SDIS": "389",
+    "ref:FR:SDIS:CIE": "Nice",
+    "short_name": "CSP Nice-Fodéré"
+  }
+},
+{
+  "type": "way",
+  "id": 1017435730,
+  "center": {
+    "lat": 43.5803958,
+    "lon": 6.9559295
+  },
+  "tags": {
+    "addr:street": "Chemin de la Commune",
+    "amenity": "fire_station",
+    "building": "yes",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de La Roquette-sur-Siagne",
+    "official_name": "LA ROQUETTE-SUR-SIAGNE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "108",
+    "ref:FR:SDIS:CIE": "Cannes",
+    "short_name": "CPI La Roquette-sur-Siagne",
+    "source": "IGN - 2021-09"
+  }
+},
+{
+  "type": "way",
+  "id": 1017445687,
+  "center": {
+    "lat": 43.6284637,
+    "lon": 7.1004838
+  },
+  "tags": {
+    "addr:street": "Chemin des Combes",
+    "alt_name": "Centre d'incendie et de secours Paul Magro",
+    "amenity": "fire_station",
+    "check_date": "2026-07-13",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Biot",
+    "official_name": "BIOT",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "18",
+    "ref:FR:SDIS:CIE": "Antibes",
+    "short_name": "CPI Biot",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1028756957,
+  "center": {
+    "lat": 43.6724001,
+    "lon": 7.0284625
+  },
+  "tags": {
+    "addr:street": "Allée du Château de Mougins",
+    "amenity": "fire_station",
+    "check_date": "2024-03-20",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Roquefort-Les-Pins",
+    "official_name": "ROQUEFORT-LES-PINS",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "105",
+    "ref:FR:SDIS:CIE": "Cagnes-sur-Mer",
+    "short_name": "CPI Roquefort-Les-Pins"
+  }
+},
+{
+  "type": "way",
+  "id": 1028756958,
+  "center": {
+    "lat": 43.7239064,
+    "lon": 7.1034333
+  },
+  "tags": {
+    "addr:street": "Avenue Rhin et Danube",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Vence",
+    "official_name": "VENCE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "157",
+    "ref:FR:SDIS:CIE": "Cagnes-sur-Mer",
+    "short_name": "CS Vence"
+  }
+},
+{
+  "type": "way",
+  "id": 1028756959,
+  "center": {
+    "lat": 43.7930155,
+    "lon": 7.0433153
+  },
+  "tags": {
+    "addr:street": "Route de Bézaudun",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Coursegoules",
+    "official_name": "COURSEGOULES",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "50",
+    "ref:FR:SDIS:CIE": "Cagnes-sur-Mer",
+    "short_name": "CPI Coursegoules"
+  }
+},
+{
+  "type": "way",
+  "id": 1028764171,
+  "center": {
+    "lat": 43.5075903,
+    "lon": 6.9402356
+  },
+  "tags": {
+    "addr:street": "Avenue de Lérins",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Théoule-sur-Mer",
+    "official_name": "Théoule-sur-Mer",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "138",
+    "ref:FR:SDIS:CIE": "Cannes",
+    "short_name": "CPI Théoule-sur-Mer",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+  }
+},
+{
+  "type": "way",
+  "id": 1028764173,
+  "center": {
+    "lat": 43.6534233,
+    "lon": 6.9385006
+  },
+  "tags": {
+    "addr:street": "Route de la Marigarde",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre de secours principal de Grasse",
+    "official_name": "GRASSE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "69",
+    "ref:FR:SDIS:CIE": "Grasse",
+    "ref:FR:SDIS:PC_CIE": "Grasse",
+    "short_name": "CSP Grasse"
+  }
+},
+{
+  "type": "way",
+  "id": 1028764174,
+  "center": {
+    "lat": 43.6303523,
+    "lon": 6.8433760
+  },
+  "tags": {
+    "addr:street": "Avenue de l'Hôtel de Ville",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours du Tignet",
+    "official_name": "LE TIGNET",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "140",
+    "ref:FR:SDIS:CIE": "Grasse",
+    "short_name": "CPI Tignet",
+    "source": "IGN - 2021-12"
+  }
+},
+{
+  "type": "way",
+  "id": 1028764175,
+  "center": {
+    "lat": 43.6512584,
+    "lon": 6.7970173
+  },
+  "tags": {
+    "addr:street": "Chemin du Stade Sud",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Saint-Cézaire-sur-Siagne",
+    "official_name": "ST-CEZAIRE-SUR-SIAGNE",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "118",
+    "ref:FR:SDIS:CIE": "Grasse",
+    "short_name": "CPI Saint-Cézaire-sur-Siagne",
+    "source": "IGN - 2021-12"
+  }
+},
+{
+  "type": "way",
+  "id": 1028769316,
+  "center": {
+    "lat": 43.6285339,
+    "lon": 7.0446391
+  },
+  "tags": {
+    "addr:street": "Route des Macarons",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Valbonne Sophia",
+    "official_name": "VALBONNE SOPHIA",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "152",
+    "ref:FR:SDIS:CIE": "Antibes",
+    "short_name": "CPI VALBONNE"
+  }
+},
+{
+  "type": "way",
+  "id": 1028774374,
+  "center": {
+    "lat": 43.7801435,
+    "lon": 7.2104874
+  },
+  "tags": {
+    "addr:street": "Route de la Zone Artisanale de la Grave",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Carros",
+    "official_name": "CARROS",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "33",
+    "ref:FR:SDIS:CIE": "Cagnes-sur-Mer",
+    "short_name": "CS Carros"
+  }
+},
+{
+  "type": "way",
+  "id": 1035754381,
+  "center": {
+    "lat": 44.5401542,
+    "lon": -1.1205215
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "yes",
+    "name": "ESIS"
+  }
+},
+{
+  "type": "way",
+  "id": 1078244261,
+  "center": {
+    "lat": 43.8174699,
+    "lon": 7.1899226
+  },
+  "tags": {
+    "addr:street": "Rue des Noyers",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Saint-Martin-du-Var",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "ref:FR:SDIS:PC_CIE": "Pays niçois",
+    "short_name": "CS Saint-Martin-du-Var"
+  }
+},
+{
+  "type": "way",
+  "id": 1120570202,
+  "center": {
+    "lat": 44.6158566,
+    "lon": -1.1237379
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours de La-Teste-de-Buch",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "TEST",
+    "ref:FR:SDIS:GRPT": "Sud-Ouest",
+    "source": "IGN - 12/2022"
+  }
+},
+{
+  "type": "way",
+  "id": 1184642569,
+  "center": {
+    "lat": 44.8771456,
+    "lon": -1.0814341
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "Centre d'incendie et de secours du Porge",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref": "PORG",
+    "ref:FR:SDIS:GRPT": "Nord-Ouest",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2023"
+  }
+},
+{
+  "type": "way",
+  "id": 1235261530,
+  "center": {
+    "lat": 43.7991239,
+    "lon": 7.2726111
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Tourette-Levens",
+    "official_name": "TOURRETTE-LEVENS",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "147",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Tourette-Levens",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2023;IGN - 2023-09-15"
+  }
+},
+{
+  "type": "way",
+  "id": 1235261532,
+  "center": {
+    "lat": 43.9515138,
+    "lon": 6.9000967
+  },
+  "tags": {
+    "addr:street": "Route du Col de Saint-Raphaël",
+    "amenity": "fire_station",
+    "building": "fire_station",
+    "fire_station:type:FR": "CPI",
+    "name": "Centre d'incendie et de secours de Puget-Théniers",
+    "official_name": "PUGET THENIERS",
+    "operator": "SDIS 06",
+    "operator:wikidata": "Q61455650",
+    "ref:FR:SDIS": "99",
+    "ref:FR:SDIS:CIE": "Pays niçois",
+    "short_name": "CPI Puget-Théniers",
+    "source": "IGN - 2023-09-15"
+  }
+},
+{
+  "type": "way",
+  "id": 1259470013,
+  "center": {
+    "lat": 43.9160756,
+    "lon": -0.4528145
+  },
+  "tags": {
+    "addr:city": "Mont-de-Marsan",
+    "addr:full": "Rond-Point de Saint Avit 40000 Mont-de-Marsan",
+    "addr:housenumber": "1",
+    "addr:postcode": "40000",
+    "addr:street": "Rue Monge",
+    "amenity": "fire_station",
+    "area": "yes",
+    "building": "yes",
+    "fire_station:type:FR": "CSP",
+    "layer": "1",
+    "name": "Centre de secours principal de Mont-de-Marsan",
+    "official_name": "MONT-DE-MARSAN",
+    "operator": "SDIS 40",
+    "operator:wikidata": "Q88763799",
+    "phone": "+33 5 58 51 56 86",
+    "ref:FR:SDIS:CIE": "Marsan",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CSP Mont-de-Marsan",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+  }
+},
+{
+  "type": "way",
+  "id": 1271435229,
+  "center": {
+    "lat": 43.7499423,
+    "lon": 7.4121128
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "yes",
+    "name": "Sapeurs-Pompiers de la Turbie"
+  }
+},
+{
+  "type": "way",
+  "id": 1374778270,
+  "center": {
+    "lat": 44.7839088,
+    "lon": -0.5816048
+  },
+  "tags": {
+    "addr:city": "Villenave-d'Ornon",
+    "addr:housenumber": "1",
+    "addr:postcode": "33140",
+    "addr:street": "Impasse de Bénédigues",
+    "amenity": "fire_station",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687"
+  }
+},
+{
+  "type": "way",
+  "id": 1374788827,
+  "center": {
+    "lat": 44.8360873,
+    "lon": -0.5487512
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CSP",
+    "name": "Centre d'incendie et de secours Bordeaux-Bastide",
+    "operator": "SDIS 33",
+    "operator:wikidata": "Q61455687",
+    "ref:FR:SDIS": "Centre-Est",
+    "ref:FR:SDIS:GRPT": "Centre-Est",
+    "short_name": "CSP Bordeaux-Bastide"
+  }
+},
+{
+  "type": "way",
+  "id": 1462152221,
+  "center": {
+    "lat": 44.2986920,
+    "lon": -0.7752397
+  },
+  "tags": {
+    "addr:city": "Pissos",
+    "addr:full": "Route de Mont-de-Marsan 40410 Pissos",
+    "addr:postcode": "40410",
+    "addr:street": "Route de Mont-de-Marsan",
+    "amenity": "fire_station",
+    "fire_station:type:FR": "CS",
+    "name": "Centre d'incendie et de secours de Pissos",
+    "official_name": "PISSOS",
+    "operator": "SDIS 40",
+    "operator:wikidata": "Q88763799",
+    "phone": "+33 5 58 08 94 31",
+    "ref:FR:SDIS:CIE": "Biscarosse",
+    "ref:FR:SDIS:GRPT": "Nord-Est",
+    "short_name": "CS Pissos",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2025"
+  }
+}
+
+  ]
+}

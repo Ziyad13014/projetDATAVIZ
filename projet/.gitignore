@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Données brutes non utilisées par src/prepare_data.py (trop lourdes ou hors périmètre)
+data/raw/gaspar/gaspar.zip
+data/raw/gaspar/azi_gaspar_*.csv
+data/raw/gaspar/catnat_gaspar_*.csv
+data/raw/gaspar/dicrim_gaspar_*.csv
+data/raw/gaspar/pprm_gaspar_*.csv
+data/raw/gaspar/pprt_gaspar_*.csv
+data/raw/gaspar/tim_gaspar_*.csv
+data/raw/MENSQ_04_*
+data/raw/MENSQ_05_*
+data/raw/MENSQ_13_*
+data/raw/MENSQ_83_*
+data/raw/MENSQ_84_*
+data/raw/SH_*.zip
+data/raw/Liste_SH_*.csv
+data/raw/bdiff_06_33_40.zip
+data/raw/*.pdf

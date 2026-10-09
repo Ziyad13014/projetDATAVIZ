@@ -1,0 +1,30 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dash",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "projet/app_dash/app.py"
+      ],
+      "port": 8050
+    },
+    {
+      "name": "altair",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "streamlit",
+        "run",
+        "projet/app_altair/app.py",
+        "--server.port",
+        "8501",
+        "--server.headless",
+        "true",
+        "--theme.base",
+        "light"
+      ],
+      "port": 8501
+    }
+  ]
+}
