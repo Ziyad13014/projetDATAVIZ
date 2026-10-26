@@ -1,0 +1,196 @@
+/* Écran unique : la page tient dans la fenêtre, sans défilement. */
+:root {
+  --page: #f9f9f7;
+  --surface: #fcfcfb;
+  --encre: #0b0b0b;
+  --encre-2: #52514e;
+  --muet: #898781;
+  --bordure: rgba(11, 11, 11, 0.10);
+  --landes: #2a78d6;
+  --med: #eb6834;
+  --statut-oui: #d03b3b;
+  --statut-partiel: #fab219;
+  --statut-non: #e1e0d9;
+  --police: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --ecart: 14px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background: var(--page);
+  color: var(--encre);
+  font-family: var(--police);
+}
+
+.page {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: var(--ecart);
+  padding: var(--ecart) calc(var(--ecart) * 1.5);
+  overflow: hidden;
+}
+
+/* En-tête : question, réponse, sélecteurs */
+.entete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.entete h1 {
+  margin: 0;
+  font-size: clamp(22px, 2.1vw, 34px);
+  font-weight: 750;
+  letter-spacing: -0.01em;
+}
+.reponse {
+  margin: 4px 0 0;
+  font-size: clamp(15px, 1.15vw, 19px);
+  color: var(--encre-2);
+}
+.reponse b { color: var(--encre); }
+
+.controles {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  font-size: 16px;
+  color: var(--encre-2);
+}
+.choix { width: 200px; font-size: 16px; }
+.choix .Select-control { border-width: 2px; border-radius: 8px; height: 40px; }
+.choix-landes .Select-control { border-color: var(--landes); }
+.choix-med .Select-control { border-color: var(--med); }
+.choix .Select-value-label { font-weight: 650; color: var(--encre) !important; }
+
+.bouton-lien {
+  margin-left: 8px;
+  background: none;
+  border: none;
+  color: var(--encre-2);
+  font: inherit;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.bouton-lien:hover { color: var(--encre); }
+
+/* Grille 2 × 2 */
+.grille {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: var(--ecart);
+  min-height: 0;
+}
+
+.panneau {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  background: var(--surface);
+  border: 1px solid var(--bordure);
+  border-radius: 12px;
+  padding: 12px 16px 8px;
+}
+.panneau-haut {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muet);
+}
+.panneau-numero b { color: var(--encre-2); }
+.panneau-titre {
+  margin: 4px 0 2px;
+  font-size: clamp(16px, 1.25vw, 21px);
+  font-weight: 700;
+  line-height: 1.25;
+}
+.panneau-chiffres {
+  margin: 0 0 4px;
+  font-size: clamp(13px, 0.9vw, 15px);
+  color: var(--encre-2);
+}
+.graphe { flex: 1; min-height: 0; }
+
+/* Statut du critère : icône + libellé, jamais la couleur seule */
+.statut {
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+.statut::before { content: "Méditerranéen ? "; font-weight: 500; }
+.statut-oui { background: var(--statut-oui); color: #fff; }
+.statut-partiel { background: var(--statut-partiel); color: var(--encre); }
+.statut-non { background: var(--statut-non); color: var(--encre); }
+
+/* Fenêtre « Sources & méthode » */
+.modale {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(11, 11, 11, 0.45);
+  z-index: 10;
+}
+.modale.cachee { display: none; }
+.modale-contenu {
+  max-width: 760px;
+  max-height: 85vh;
+  overflow: auto;
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 24px 32px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.modale-contenu h2 { margin-top: 0; }
+.modale-contenu h3 { margin: 18px 0 4px; font-size: 17px; }
+.modale-contenu a { color: var(--landes); }
+.bouton {
+  margin-top: 16px;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 8px;
+  background: var(--encre);
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Petits écrans (portable 1366 × 768) : on resserre */
+@media (max-height: 820px) {
+  :root { --ecart: 10px; }
+  .panneau { padding: 8px 12px 4px; }
+  .panneau-chiffres { display: none; }
+}
+
+/* Navigation entre les deux pages */
+.contenu { display: contents; }
+.bouton-nav {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: var(--encre);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.bouton-nav:hover { background: var(--encre-2); }
+
+/* Page Solutions : deux cartes côte à côte */
+.grille-cartes { grid-template-rows: 1fr; }
