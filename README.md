@@ -1,6 +1,7 @@
 # Le massif landais devient-il méditerranéen ?
 
 Projet de dataviz (Ynov M2 IA/Data), données ouvertes Météo-France / data.gouv.fr.
+Mehdi Bousetta, Ziyad Berjane, Walid Makboul
 
 ## Dashboard
 
